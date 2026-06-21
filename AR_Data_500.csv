@@ -1,0 +1,501 @@
+﻿Invoice_ID,Customer_ID,Customer_Name,Customer_Segment,Region,Invoice_Date,Due_Date,Invoice_Amount,Amount_Paid,Payment_Date,Payment_Status,Invoice_Category,Sales_Rep,Dispute_Flag,Dispute_Reason,Outstanding_Amount,Days_To-Pay,Days_Overdue,Aging_Bucket,Recovery_Priority
+INV-0001,CUST-001,Malhotra Construction Group,Enterprise,Mumbai,21-04-2024,21-05-2024,981239,981239,09-05-2024,Paid,Maintenance Contract,Amit Verma,No,,0,18,0,Current,None
+INV-0002,CUST-002,Khanna Electricals & Co.,Enterprise,Mumbai,28-04-2024,28-05-2024,853565,401175.55,21-05-2024,Partial,Maintenance Contract,Priya Sharma,No,,452389.45,23,0,0-30 Days,Low - Monitor
+INV-0003,CUST-003,Singh Freight Carriers,Enterprise,Mumbai,20-07-2024,19-08-2024,1397868,1397868,13-08-2024,Paid,Maintenance Contract,Rahul Nair,No,,0,24,0,Current,None
+INV-0004,CUST-004,Bhatia Polymers Pvt Ltd,Enterprise,Mumbai,07-05-2024,06-06-2024,1456560,1456560,21-05-2024,Paid,Annual License,Sneha Patel,No,,0,14,0,Current,None
+INV-0005,CUST-005,Verma Associates,Enterprise,Mumbai,30-11-2024,30-12-2024,468140,468140,09-12-2024,Paid,Annual License,Vikram Joshi,No,,0,9,0,Current,None
+INV-0006,CUST-006,Chopra Cold Storage,Enterprise,Mumbai,06-03-2025,05-04-2025,527778,527778,30-03-2025,Paid,Service Fee,Anita Reddy,No,,0,24,0,Current,None
+INV-0007,CUST-007,Sethi Textiles & Fabrics,Enterprise,Mumbai,04-11-2024,04-12-2024,778162,778162,27-12-2024,Late_Paid,Maintenance Contract,Karan Mehta,No,,0,53,0,Current,None
+INV-0008,CUST-008,Aggarwal Spices Trading,Enterprise,Mumbai,16-03-2025,15-04-2025,1278638,1278638,04-04-2025,Paid,Consulting,Divya Singh,No,,0,19,0,Current,None
+INV-0009,CUST-009,Tandon Auto Parts,Enterprise,Mumbai,06-08-2024,05-09-2024,1250314,1250314,20-08-2024,Paid,Product Sale,Amit Verma,No,,0,14,0,Current,None
+INV-0010,CUST-010,Gill Agricultural Implements,Enterprise,Mumbai,09-12-2024,08-01-2025,1378491,730600.23,25-12-2024,Partial,Maintenance Contract,Priya Sharma,No,,647890.77,16,0,0-30 Days,Low - Monitor
+INV-0011,CUST-011,Dhawan Pharmaceuticals,Mid-Market,Pune,11-03-2025,10-04-2025,189520,0,,Overdue,Annual License,Rahul Nair,No,,189520,,432,90+ Days,Critical - Escalate Now
+INV-0012,CUST-012,Rawat Real Estate,Mid-Market,Pune,10-09-2024,10-10-2024,178452,0,,Overdue,Consulting,Sneha Patel,No,,178452,,614,90+ Days,Critical - Escalate Now
+INV-0013,CUST-013,Jain Packaging Solutions,Mid-Market,Pune,06-09-2024,06-10-2024,148027,148027,24-09-2024,Paid,Product Sale,Vikram Joshi,No,,0,18,0,Current,None
+INV-0014,CUST-014,Kapur Infrastructure,Mid-Market,Pune,29-06-2024,29-07-2024,58674,58674,07-09-2024,Late_Paid,Product Sale,Anita Reddy,No,,0,70,0,Current,None
+INV-0015,CUST-015,Sahni Hospitality Services,Mid-Market,Pune,31-10-2024,30-11-2024,119589,0,,Disputed,Annual License,Karan Mehta,Yes,Contract Disagreement,119589,,0,0-30 Days,High - Legal Review
+INV-0016,CUST-016,Bakshi Steel Syndicate,Mid-Market,Pune,29-03-2025,28-04-2025,194145,194145,17-04-2025,Paid,Annual License,Divya Singh,No,,0,19,0,Current,None
+INV-0017,CUST-017,Sachdeva Marketing Agency,Mid-Market,Pune,01-05-2025,31-05-2025,140402,99685.42,27-05-2025,Partial,Maintenance Contract,Amit Verma,No,,40716.58,26,0,0-30 Days,Low - Monitor
+INV-0018,CUST-018,Chawla Hardware Stores,Mid-Market,Pune,01-09-2024,01-10-2024,149003,149003,13-09-2024,Paid,Maintenance Contract,Priya Sharma,No,,0,12,0,Current,None
+INV-0019,CUST-019,Oberoi Paper Products,Mid-Market,Pune,09-12-2024,08-01-2025,119314,119314,22-01-2025,Late_Paid,Service Fee,Rahul Nair,No,,0,44,0,Current,None
+INV-0020,CUST-020,Luthra Chemical Works,Mid-Market,Pune,27-01-2025,26-02-2025,158116,158116,29-03-2025,Late_Paid,Product Sale,Sneha Patel,No,,0,61,0,Current,None
+INV-0021,CUST-021,Deshmukh Engineering Works,Mid-Market,Delhi,15-04-2024,15-05-2024,153197,0,,Overdue,Product Sale,Vikram Joshi,No,,153197,,762,90+ Days,Critical - Escalate Now
+INV-0022,CUST-022,Patel Polymers & Plastics,Mid-Market,Delhi,02-02-2025,04-03-2025,140000,140000,02-04-2025,Late_Paid,Annual License,Anita Reddy,No,,0,59,0,Current,None
+INV-0023,CUST-023,Shah Global Exports,Mid-Market,Delhi,07-01-2024,06-02-2024,56622,56622,08-03-2024,Late_Paid,Consulting,Karan Mehta,No,,0,61,0,Current,None
+INV-0024,CUST-024,Kulkarni Consultancy Services,Mid-Market,Delhi,13-08-2024,12-09-2024,87856,41292.32,04-09-2024,Partial,Consulting,Divya Singh,No,,46563.68,22,0,0-30 Days,Low - Monitor
+INV-0025,CUST-025,Joshi Precision Tools,Mid-Market,Delhi,18-02-2025,20-03-2025,152688,152688,14-03-2025,Paid,Service Fee,Amit Verma,No,,0,24,0,Current,None
+INV-0026,CUST-026,Mehta Financial Advisors,Mid-Market,Delhi,25-11-2024,25-12-2024,163339,0,,Overdue,Product Sale,Priya Sharma,No,,163339,,538,90+ Days,Critical - Escalate Now
+INV-0027,CUST-027,Gandhi Trading House,Mid-Market,Delhi,18-05-2024,17-06-2024,65618,65618,08-07-2024,Late_Paid,Product Sale,Rahul Nair,No,,0,51,0,Current,None
+INV-0028,CUST-028,Sawant Marine Services,Mid-Market,Delhi,01-12-2024,31-12-2024,78164,78164,29-01-2025,Late_Paid,Maintenance Contract,Sneha Patel,No,,0,59,0,Current,None
+INV-0029,CUST-029,Doshi Dye-Chem Industries,Mid-Market,Delhi,07-03-2025,06-04-2025,144487,144487,12-04-2025,Late_Paid,Consulting,Vikram Joshi,No,,0,36,0,Current,None
+INV-0030,CUST-030,Parikh Logistics & Warehousing,Mid-Market,Delhi,23-02-2024,24-03-2024,94133,94133,02-04-2024,Late_Paid,Service Fee,Anita Reddy,No,,0,39,0,Current,None
+INV-0031,CUST-031,Kadam Agro Commodities,SME,Bangalore,01-02-2024,02-03-2024,36254,36254,25-02-2024,Paid,Product Sale,Karan Mehta,No,,0,24,0,Current,None
+INV-0032,CUST-032,Sheth Diamond Traders,SME,Bangalore,01-09-2024,01-10-2024,19971,19971,12-09-2024,Paid,Annual License,Divya Singh,No,,0,11,0,Current,None
+INV-0033,CUST-033,Pawar Heavy Equipments,SME,Bangalore,19-09-2024,19-10-2024,15807,15807,01-12-2024,Late_Paid,Annual License,Amit Verma,No,,0,73,0,Current,None
+INV-0034,CUST-034,Thakkar Food Products,SME,Bangalore,16-06-2024,16-07-2024,33041,33041,21-06-2024,Paid,Annual License,Priya Sharma,No,,0,5,0,Current,None
+INV-0035,CUST-035,Kunte Manufacturing Co.,SME,Bangalore,19-01-2025,18-02-2025,35604,35604,01-04-2025,Late_Paid,Product Sale,Rahul Nair,No,,0,72,0,Current,None
+INV-0036,CUST-036,Modi Retail Chain,SME,Bangalore,14-04-2024,14-05-2024,25795,25795,22-04-2024,Paid,Annual License,Sneha Patel,No,,0,8,0,Current,None
+INV-0037,CUST-037,Desai Infrastructure Developers,SME,Bangalore,05-02-2024,06-03-2024,26690,0,,Overdue,Maintenance Contract,Vikram Joshi,No,,26690,,832,90+ Days,Critical - Escalate Now
+INV-0038,CUST-038,Raut Metal Castings,SME,Bangalore,15-12-2024,14-01-2025,20228,20228,23-12-2024,Paid,Consulting,Anita Reddy,No,,0,8,0,Current,None
+INV-0039,CUST-039,Bhatia Oil Refineries,SME,Bangalore,05-01-2025,04-02-2025,36208,36208,08-03-2025,Late_Paid,Service Fee,Karan Mehta,No,,0,62,0,Current,None
+INV-0040,CUST-040,Chavan Logistics Solutions,SME,Bangalore,03-10-2024,02-11-2024,18555,18555,21-10-2024,Paid,Consulting,Divya Singh,No,,0,18,0,Current,None
+INV-0041,CUST-041,Iyer & Associates,SME,Chennai,01-10-2024,31-10-2024,38678,24753.92,25-10-2024,Partial,Product Sale,Amit Verma,No,,13924.08,24,0,0-30 Days,Low - Monitor
+INV-0042,CUST-042,Reddy Infrastructure Projects,SME,Chennai,20-04-2025,20-05-2025,32218,32218,26-05-2025,Late_Paid,Maintenance Contract,Priya Sharma,No,,0,36,0,Current,None
+INV-0043,CUST-043,Nair Maritime Agencies,SME,Chennai,28-11-2024,28-12-2024,46804,46804,11-12-2024,Paid,Maintenance Contract,Rahul Nair,No,,0,13,0,Current,None
+INV-0044,CUST-044,Menon Biotech Labs,SME,Chennai,13-10-2024,12-11-2024,21079,21079,18-10-2024,Paid,Annual License,Sneha Patel,No,,0,5,0,Current,None
+INV-0045,CUST-045,Naidu Electrical Systems,SME,Chennai,11-10-2024,10-11-2024,43461,0,,Overdue,Consulting,Vikram Joshi,No,,43461,,583,90+ Days,Critical - Escalate Now
+INV-0046,CUST-046,Rao Automotive Components,SME,Chennai,02-05-2025,01-06-2025,37083,37083,07-05-2025,Paid,Consulting,Anita Reddy,No,,0,5,0,Current,None
+INV-0047,CUST-047,Krishnan Textile Mill,SME,Chennai,28-10-2024,27-11-2024,36795,36795,23-11-2024,Paid,Maintenance Contract,Karan Mehta,No,,0,26,0,Current,None
+INV-0048,CUST-048,Subramaniam Exports Pvt Ltd,SME,Chennai,12-01-2025,11-02-2025,28128,28128,23-03-2025,Late_Paid,Consulting,Divya Singh,No,,0,70,0,Current,None
+INV-0049,CUST-049,Pillai Logistics Group,SME,Chennai,26-12-2024,25-01-2025,34868,34868,08-01-2025,Paid,Maintenance Contract,Amit Verma,No,,0,13,0,Current,None
+INV-0050,CUST-050,Venkatesh Engineering Corp,SME,Chennai,03-05-2024,02-06-2024,33693,33693,31-05-2024,Paid,Product Sale,Priya Sharma,No,,0,28,0,Current,None
+INV-0051,CUST-051,Srinivasan Polymers,SME,Hyderabad,08-07-2024,07-08-2024,24789,24789,05-08-2024,Paid,Maintenance Contract,Rahul Nair,No,,0,28,0,Current,None
+INV-0052,CUST-052,Gowda Agri-Business,SME,Hyderabad,16-10-2024,15-11-2024,44508,44508,28-10-2024,Paid,Maintenance Contract,Sneha Patel,No,,0,12,0,Current,None
+INV-0053,CUST-053,Ranganathan Softwares,SME,Hyderabad,24-01-2024,23-02-2024,14629,0,,Overdue,Maintenance Contract,Vikram Joshi,No,,14629,,844,90+ Days,Critical - Escalate Now
+INV-0054,CUST-054,Sivanandam Trading Co.,SME,Hyderabad,26-10-2024,25-11-2024,38264,38264,06-12-2024,Late_Paid,Consulting,Anita Reddy,No,,0,41,0,Current,None
+INV-0055,CUST-055,Balakrishnan Real Estate,SME,Hyderabad,18-10-2024,17-11-2024,32075,32075,28-10-2024,Paid,Maintenance Contract,Karan Mehta,No,,0,10,0,Current,None
+INV-0056,CUST-056,Ramani Manufacturing,SME,Hyderabad,15-09-2024,15-10-2024,41060,41060,22-09-2024,Paid,Product Sale,Divya Singh,No,,0,7,0,Current,None
+INV-0057,CUST-057,Vijayalakshmi Heavy Industries,SME,Hyderabad,18-05-2025,17-06-2025,40448,40448,01-07-2025,Late_Paid,Service Fee,Amit Verma,No,,0,44,0,Current,None
+INV-0058,CUST-058,Jayaraman Logistics,SME,Hyderabad,07-11-2024,07-12-2024,11837,11837,29-11-2024,Paid,Product Sale,Priya Sharma,No,,0,22,0,Current,None
+INV-0059,CUST-059,Thomas Marine Eng,SME,Hyderabad,19-08-2024,18-09-2024,20080,20080,07-09-2024,Paid,Consulting,Rahul Nair,No,,0,19,0,Current,None
+INV-0060,CUST-060,Sunder Rao Traders,SME,Hyderabad,15-03-2025,14-04-2025,24696,18028.08,28-03-2025,Partial,Annual License,Sneha Patel,No,,6667.92,13,0,0-30 Days,Low - Monitor
+INV-0061,CUST-061,Bharat Industrial Supplies,Retail,Ahmedabad,04-08-2024,03-09-2024,7984,7984,16-08-2024,Paid,Service Fee,Vikram Joshi,No,,0,12,0,Current,None
+INV-0062,CUST-062,Coastal Shipping & Logistics,Retail,Ahmedabad,17-03-2024,16-04-2024,5725,2977,11-04-2024,Partial,Consulting,Anita Reddy,No,,2748,25,0,0-30 Days,Low - Monitor
+INV-0063,CUST-063,Summit Engineering Services,Retail,Ahmedabad,03-02-2024,04-03-2024,3276,3276,10-02-2024,Paid,Consulting,Karan Mehta,No,,0,7,0,Current,None
+INV-0064,CUST-064,Apex Mercantile Group,Retail,Ahmedabad,27-09-2024,27-10-2024,8534,8534,05-10-2024,Paid,Consulting,Divya Singh,No,,0,8,0,Current,None
+INV-0065,CUST-065,Horizon Agri-Tech,Retail,Ahmedabad,18-08-2024,17-09-2024,5782,5782,25-08-2024,Paid,Service Fee,Amit Verma,No,,0,7,0,Current,None
+INV-0066,CUST-066,Prime Steel Fabricators,Retail,Ahmedabad,18-06-2024,18-07-2024,6150,6150,26-06-2024,Paid,Consulting,Priya Sharma,No,,0,8,0,Current,None
+INV-0067,CUST-067,Unity Wholesale Distributors,Retail,Ahmedabad,07-11-2024,07-12-2024,9055,9055,15-01-2025,Late_Paid,Annual License,Rahul Nair,No,,0,69,0,Current,None
+INV-0068,CUST-068,Zenith Chemical Solutions,Retail,Ahmedabad,24-03-2025,23-04-2025,3974,3974,21-04-2025,Paid,Consulting,Sneha Patel,No,,0,28,0,Current,None
+INV-0069,CUST-069,Dynamic Infrastructure Pvt Ltd,Retail,Ahmedabad,13-09-2024,13-10-2024,7664,4751.68,23-09-2024,Partial,Annual License,Vikram Joshi,No,,2912.32,10,0,0-30 Days,Low - Monitor
+INV-0070,CUST-070,Global Trade Connect,Retail,Ahmedabad,22-09-2024,22-10-2024,8419,0,,Overdue,Consulting,Anita Reddy,No,,8419,,602,90+ Days,Critical - Escalate Now
+INV-0071,CUST-071,Legacy Building Materials,Retail,Kolkata,11-10-2024,10-11-2024,4129,4129,18-10-2024,Paid,Consulting,Karan Mehta,No,,0,7,0,Current,None
+INV-0072,CUST-072,Elite Retail Solutions,Retail,Kolkata,15-03-2025,14-04-2025,9613,0,,Overdue,Product Sale,Divya Singh,No,,9613,,428,90+ Days,Critical - Escalate Now
+INV-0073,CUST-073,Vantage Construction Co.,Retail,Kolkata,03-12-2024,02-01-2025,6528,6528,01-02-2025,Late_Paid,Maintenance Contract,Amit Verma,No,,0,60,0,Current,None
+INV-0074,CUST-074,Metro Freight Forwarders,Retail,Kolkata,07-02-2024,08-03-2024,5410,3137.8,12-03-2024,Partial,Maintenance Contract,Priya Sharma,No,,2272.2,34,0,0-30 Days,Low - Monitor
+INV-0075,CUST-075,Standard Electrical Industries,Retail,Kolkata,28-01-2024,27-02-2024,9997,0,,Overdue,Consulting,Rahul Nair,No,,9997,,840,90+ Days,Critical - Escalate Now
+INV-0076,CUST-076,Integrated Logistics Partners,Retail,Kolkata,24-01-2025,23-02-2025,7898,0,,Overdue,Consulting,Sneha Patel,No,,7898,,478,90+ Days,Critical - Escalate Now
+INV-0077,CUST-077,Continental Trading Syndicate,Retail,Kolkata,27-07-2024,26-08-2024,6255,6255,15-08-2024,Paid,Maintenance Contract,Vikram Joshi,No,,0,19,0,Current,None
+INV-0078,CUST-078,Superior Packing Systems,Retail,Kolkata,04-05-2024,03-06-2024,3391,1525.95,14-05-2024,Partial,Service Fee,Anita Reddy,No,,1865.05,10,0,0-30 Days,Low - Monitor
+INV-0079,CUST-079,Essential Agro Exports,Retail,Kolkata,21-02-2025,23-03-2025,6385,6385,04-04-2025,Late_Paid,Consulting,Karan Mehta,No,,0,42,0,Current,None
+INV-0080,CUST-080,Modern Infrastructure Consultants,Retail,Kolkata,25-05-2025,24-06-2025,6519,6519,21-06-2025,Paid,Annual License,Divya Singh,No,,0,27,0,Current,None
+INV-0081,CUST-001,Malhotra Construction Group,Enterprise,Mumbai,01-03-2025,31-03-2025,1200187,1200187,20-03-2025,Paid,Service Fee,Amit Verma,No,,0,19,0,Current,None
+INV-0082,CUST-002,Khanna Electricals & Co.,Enterprise,Mumbai,28-05-2024,27-06-2024,568116,568116,10-06-2024,Paid,Product Sale,Priya Sharma,No,,0,13,0,Current,None
+INV-0083,CUST-003,Singh Freight Carriers,Enterprise,Mumbai,24-05-2024,23-06-2024,705193,0,,Overdue,Product Sale,Rahul Nair,No,,705193,,723,90+ Days,Critical - Escalate Now
+INV-0084,CUST-004,Bhatia Polymers Pvt Ltd,Enterprise,Mumbai,16-05-2025,15-06-2025,1372554,1372554,20-07-2025,Late_Paid,Annual License,Sneha Patel,No,,0,65,0,Current,None
+INV-0085,CUST-005,Verma Associates,Enterprise,Mumbai,13-06-2024,13-07-2024,907295,0,,Overdue,Consulting,Vikram Joshi,No,,907295,,703,90+ Days,Critical - Escalate Now
+INV-0086,CUST-006,Chopra Cold Storage,Enterprise,Mumbai,23-01-2024,22-02-2024,1483594,0,,Overdue,Consulting,Anita Reddy,No,,1483594,,845,90+ Days,Critical - Escalate Now
+INV-0087,CUST-007,Sethi Textiles & Fabrics,Enterprise,Mumbai,29-04-2025,29-05-2025,631768,499096.72,03-06-2025,Partial,Consulting,Karan Mehta,No,,132671.28,35,0,0-30 Days,Low - Monitor
+INV-0088,CUST-008,Aggarwal Spices Trading,Enterprise,Mumbai,22-05-2025,21-06-2025,941977,941977,14-06-2025,Paid,Annual License,Divya Singh,No,,0,23,0,Current,None
+INV-0089,CUST-009,Tandon Auto Parts,Enterprise,Mumbai,26-09-2024,26-10-2024,767794,0,,Overdue,Product Sale,Amit Verma,No,,767794,,598,90+ Days,Critical - Escalate Now
+INV-0090,CUST-010,Gill Agricultural Implements,Enterprise,Mumbai,16-01-2024,15-02-2024,987052,987052,23-01-2024,Paid,Service Fee,Priya Sharma,No,,0,7,0,Current,None
+INV-0091,CUST-011,Dhawan Pharmaceuticals,Mid-Market,Pune,28-09-2024,28-10-2024,134120,134120,13-10-2024,Paid,Product Sale,Rahul Nair,No,,0,15,0,Current,None
+INV-0092,CUST-012,Rawat Real Estate,Mid-Market,Pune,24-01-2025,23-02-2025,135266,135266,30-01-2025,Paid,Annual License,Sneha Patel,No,,0,6,0,Current,None
+INV-0093,CUST-013,Jain Packaging Solutions,Mid-Market,Pune,11-03-2024,10-04-2024,176662,176662,20-04-2024,Late_Paid,Service Fee,Vikram Joshi,No,,0,40,0,Current,None
+INV-0094,CUST-014,Kapur Infrastructure,Mid-Market,Pune,10-04-2024,10-05-2024,143800,143800,20-04-2024,Paid,Consulting,Anita Reddy,No,,0,10,0,Current,None
+INV-0095,CUST-015,Sahni Hospitality Services,Mid-Market,Pune,30-01-2024,29-02-2024,199515,199515,15-02-2024,Paid,Maintenance Contract,Karan Mehta,No,,0,16,0,Current,None
+INV-0096,CUST-016,Bakshi Steel Syndicate,Mid-Market,Pune,17-03-2025,16-04-2025,145065,145065,12-04-2025,Paid,Annual License,Divya Singh,No,,0,26,0,Current,None
+INV-0097,CUST-017,Sachdeva Marketing Agency,Mid-Market,Pune,23-06-2024,23-07-2024,159500,159500,19-07-2024,Paid,Annual License,Amit Verma,No,,0,26,0,Current,None
+INV-0098,CUST-018,Chawla Hardware Stores,Mid-Market,Pune,24-08-2024,23-09-2024,159294,0,,Overdue,Service Fee,Priya Sharma,No,,159294,,631,90+ Days,Critical - Escalate Now
+INV-0099,CUST-019,Oberoi Paper Products,Mid-Market,Pune,27-05-2024,26-06-2024,53106,0,,Overdue,Consulting,Rahul Nair,No,,53106,,720,90+ Days,Critical - Escalate Now
+INV-0100,CUST-020,Luthra Chemical Works,Mid-Market,Pune,10-06-2024,10-07-2024,145979,145979,24-06-2024,Paid,Annual License,Sneha Patel,No,,0,14,0,Current,None
+INV-0101,CUST-021,Deshmukh Engineering Works,Mid-Market,Delhi,13-09-2024,13-10-2024,93460,93460,11-11-2024,Late_Paid,Service Fee,Vikram Joshi,No,,0,59,0,Current,None
+INV-0102,CUST-022,Patel Polymers & Plastics,Mid-Market,Delhi,19-04-2024,19-05-2024,183877,112164.97,21-05-2024,Partial,Annual License,Anita Reddy,No,,71712.03,32,0,0-30 Days,Low - Monitor
+INV-0103,CUST-023,Shah Global Exports,Mid-Market,Delhi,23-01-2024,22-02-2024,179059,179059,27-02-2024,Late_Paid,Maintenance Contract,Karan Mehta,No,,0,35,0,Current,None
+INV-0104,CUST-024,Kulkarni Consultancy Services,Mid-Market,Delhi,20-02-2024,21-03-2024,184857,92428.5,08-03-2024,Partial,Maintenance Contract,Divya Singh,No,,92428.5,17,0,0-30 Days,Low - Monitor
+INV-0105,CUST-025,Joshi Precision Tools,Mid-Market,Delhi,26-12-2024,25-01-2025,115371,115371,08-01-2025,Paid,Annual License,Amit Verma,No,,0,13,0,Current,None
+INV-0106,CUST-026,Mehta Financial Advisors,Mid-Market,Delhi,09-04-2024,09-05-2024,134026,134026,11-06-2024,Late_Paid,Maintenance Contract,Priya Sharma,No,,0,63,0,Current,None
+INV-0107,CUST-027,Gandhi Trading House,Mid-Market,Delhi,08-01-2025,07-02-2025,84238,84238,23-01-2025,Paid,Maintenance Contract,Rahul Nair,No,,0,15,0,Current,None
+INV-0108,CUST-028,Sawant Marine Services,Mid-Market,Delhi,13-09-2024,13-10-2024,87841,0,,Overdue,Annual License,Sneha Patel,No,,87841,,611,90+ Days,Critical - Escalate Now
+INV-0109,CUST-029,Doshi Dye-Chem Industries,Mid-Market,Delhi,17-06-2024,17-07-2024,160068,160068,15-07-2024,Paid,Maintenance Contract,Vikram Joshi,No,,0,28,0,Current,None
+INV-0110,CUST-030,Parikh Logistics & Warehousing,Mid-Market,Delhi,27-04-2024,27-05-2024,51530,51530,15-06-2024,Late_Paid,Service Fee,Anita Reddy,No,,0,49,0,Current,None
+INV-0111,CUST-031,Kadam Agro Commodities,SME,Bangalore,09-01-2025,08-02-2025,27959,27959,22-01-2025,Paid,Product Sale,Karan Mehta,No,,0,13,0,Current,None
+INV-0112,CUST-032,Sheth Diamond Traders,SME,Bangalore,14-07-2024,13-08-2024,24710,0,,Overdue,Annual License,Divya Singh,No,,24710,,672,90+ Days,Critical - Escalate Now
+INV-0113,CUST-033,Pawar Heavy Equipments,SME,Bangalore,20-04-2024,20-05-2024,20312,20312,14-05-2024,Paid,Product Sale,Amit Verma,No,,0,24,0,Current,None
+INV-0114,CUST-034,Thakkar Food Products,SME,Bangalore,01-12-2024,31-12-2024,28818,28818,26-12-2024,Paid,Product Sale,Priya Sharma,No,,0,25,0,Current,None
+INV-0115,CUST-035,Kunte Manufacturing Co.,SME,Bangalore,05-11-2024,05-12-2024,28364,20138.44,16-11-2024,Partial,Service Fee,Rahul Nair,No,,8225.56,11,0,0-30 Days,Low - Monitor
+INV-0116,CUST-036,Modi Retail Chain,SME,Bangalore,17-07-2024,16-08-2024,30081,0,,Disputed,Annual License,Sneha Patel,Yes,Goods Not Received,30081,,0,0-30 Days,High - Legal Review
+INV-0117,CUST-037,Desai Infrastructure Developers,SME,Bangalore,15-01-2025,14-02-2025,21170,0,,Overdue,Annual License,Vikram Joshi,No,,21170,,487,90+ Days,Critical - Escalate Now
+INV-0118,CUST-038,Raut Metal Castings,SME,Bangalore,28-02-2025,30-03-2025,31611,31611,18-03-2025,Paid,Annual License,Anita Reddy,No,,0,18,0,Current,None
+INV-0119,CUST-039,Bhatia Oil Refineries,SME,Bangalore,03-02-2024,04-03-2024,18321,18321,22-02-2024,Paid,Consulting,Karan Mehta,No,,0,19,0,Current,None
+INV-0120,CUST-040,Chavan Logistics Solutions,SME,Bangalore,06-01-2025,05-02-2025,46811,46811,04-03-2025,Late_Paid,Annual License,Divya Singh,No,,0,57,0,Current,None
+INV-0121,CUST-041,Iyer & Associates,SME,Chennai,11-02-2025,13-03-2025,42760,42760,18-02-2025,Paid,Consulting,Amit Verma,No,,0,7,0,Current,None
+INV-0122,CUST-042,Reddy Infrastructure Projects,SME,Chennai,22-01-2024,21-02-2024,38876,38876,05-03-2024,Late_Paid,Service Fee,Priya Sharma,No,,0,43,0,Current,None
+INV-0123,CUST-043,Nair Maritime Agencies,SME,Chennai,20-02-2025,22-03-2025,44901,0,,Disputed,Annual License,Rahul Nair,Yes,Goods Not Received,44901,,0,0-30 Days,High - Legal Review
+INV-0124,CUST-044,Menon Biotech Labs,SME,Chennai,02-12-2024,01-01-2025,28372,28372,15-01-2025,Late_Paid,Maintenance Contract,Sneha Patel,No,,0,44,0,Current,None
+INV-0125,CUST-045,Naidu Electrical Systems,SME,Chennai,13-09-2024,13-10-2024,15398,15398,26-10-2024,Late_Paid,Product Sale,Vikram Joshi,No,,0,43,0,Current,None
+INV-0126,CUST-046,Rao Automotive Components,SME,Chennai,14-06-2024,14-07-2024,44472,0,,Overdue,Annual License,Anita Reddy,No,,44472,,702,90+ Days,Critical - Escalate Now
+INV-0127,CUST-047,Krishnan Textile Mill,SME,Chennai,27-06-2024,27-07-2024,10815,10815,03-09-2024,Late_Paid,Consulting,Karan Mehta,No,,0,68,0,Current,None
+INV-0128,CUST-048,Subramaniam Exports Pvt Ltd,SME,Chennai,06-03-2024,05-04-2024,11246,11246,29-03-2024,Paid,Annual License,Divya Singh,No,,0,23,0,Current,None
+INV-0129,CUST-049,Pillai Logistics Group,SME,Chennai,07-04-2025,07-05-2025,39826,39826,21-04-2025,Paid,Annual License,Amit Verma,No,,0,14,0,Current,None
+INV-0130,CUST-050,Venkatesh Engineering Corp,SME,Chennai,01-02-2024,02-03-2024,48684,48684,03-04-2024,Late_Paid,Consulting,Priya Sharma,No,,0,62,0,Current,None
+INV-0131,CUST-051,Srinivasan Polymers,SME,Hyderabad,17-05-2025,16-06-2025,29852,29852,26-06-2025,Late_Paid,Product Sale,Rahul Nair,No,,0,40,0,Current,None
+INV-0132,CUST-052,Gowda Agri-Business,SME,Hyderabad,31-05-2024,30-06-2024,26578,26578,25-06-2024,Paid,Annual License,Sneha Patel,No,,0,25,0,Current,None
+INV-0133,CUST-053,Ranganathan Softwares,SME,Hyderabad,28-11-2024,28-12-2024,48397,48397,19-12-2024,Paid,Consulting,Vikram Joshi,No,,0,21,0,Current,None
+INV-0134,CUST-054,Sivanandam Trading Co.,SME,Hyderabad,08-08-2024,07-09-2024,14001,0,,Disputed,Annual License,Anita Reddy,Yes,Goods Not Received,14001,,0,0-30 Days,High - Legal Review
+INV-0135,CUST-055,Balakrishnan Real Estate,SME,Hyderabad,21-08-2024,20-09-2024,28516,28516,21-10-2024,Late_Paid,Consulting,Karan Mehta,No,,0,61,0,Current,None
+INV-0136,CUST-056,Ramani Manufacturing,SME,Hyderabad,16-11-2024,16-12-2024,14457,14457,25-11-2024,Paid,Maintenance Contract,Divya Singh,No,,0,9,0,Current,None
+INV-0137,CUST-057,Vijayalakshmi Heavy Industries,SME,Hyderabad,09-03-2024,08-04-2024,19443,19443,10-05-2024,Late_Paid,Product Sale,Amit Verma,No,,0,62,0,Current,None
+INV-0138,CUST-058,Jayaraman Logistics,SME,Hyderabad,16-01-2025,15-02-2025,36004,36004,27-03-2025,Late_Paid,Annual License,Priya Sharma,No,,0,70,0,Current,None
+INV-0139,CUST-059,Thomas Marine Eng,SME,Hyderabad,03-12-2024,02-01-2025,31401,19468.62,12-01-2025,Partial,Maintenance Contract,Rahul Nair,No,,11932.38,40,0,0-30 Days,Low - Monitor
+INV-0140,CUST-060,Sunder Rao Traders,SME,Hyderabad,22-10-2024,21-11-2024,33358,0,,Disputed,Maintenance Contract,Sneha Patel,Yes,Price Mismatch,33358,,0,0-30 Days,High - Legal Review
+INV-0141,CUST-061,Bharat Industrial Supplies,Retail,Ahmedabad,05-08-2024,04-09-2024,5404,5404,13-08-2024,Paid,Service Fee,Vikram Joshi,No,,0,8,0,Current,None
+INV-0142,CUST-062,Coastal Shipping & Logistics,Retail,Ahmedabad,25-04-2024,25-05-2024,6128,0,,Overdue,Annual License,Anita Reddy,No,,6128,,752,90+ Days,Critical - Escalate Now
+INV-0143,CUST-063,Summit Engineering Services,Retail,Ahmedabad,27-01-2024,26-02-2024,2378,2378,06-02-2024,Paid,Product Sale,Karan Mehta,No,,0,10,0,Current,None
+INV-0144,CUST-064,Apex Mercantile Group,Retail,Ahmedabad,12-11-2024,12-12-2024,3737,3737,22-11-2024,Paid,Product Sale,Divya Singh,No,,0,10,0,Current,None
+INV-0145,CUST-065,Horizon Agri-Tech,Retail,Ahmedabad,14-02-2025,16-03-2025,7896,7896,14-03-2025,Paid,Product Sale,Amit Verma,No,,0,28,0,Current,None
+INV-0146,CUST-066,Prime Steel Fabricators,Retail,Ahmedabad,08-08-2024,07-09-2024,9569,9569,18-08-2024,Paid,Maintenance Contract,Priya Sharma,No,,0,10,0,Current,None
+INV-0147,CUST-067,Unity Wholesale Distributors,Retail,Ahmedabad,20-03-2024,19-04-2024,4304,0,,Overdue,Product Sale,Rahul Nair,No,,4304,,788,90+ Days,Critical - Escalate Now
+INV-0148,CUST-068,Zenith Chemical Solutions,Retail,Ahmedabad,20-02-2024,21-03-2024,7304,7304,22-04-2024,Late_Paid,Consulting,Sneha Patel,No,,0,62,0,Current,None
+INV-0149,CUST-069,Dynamic Infrastructure Pvt Ltd,Retail,Ahmedabad,28-03-2025,27-04-2025,5637,5637,09-05-2025,Late_Paid,Annual License,Vikram Joshi,No,,0,42,0,Current,None
+INV-0150,CUST-070,Global Trade Connect,Retail,Ahmedabad,07-12-2024,06-01-2025,8103,0,,Overdue,Annual License,Anita Reddy,No,,8103,,526,90+ Days,Critical - Escalate Now
+INV-0151,CUST-071,Legacy Building Materials,Retail,Kolkata,16-02-2024,17-03-2024,3245,3245,27-02-2024,Paid,Product Sale,Karan Mehta,No,,0,11,0,Current,None
+INV-0152,CUST-072,Elite Retail Solutions,Retail,Kolkata,04-08-2024,03-09-2024,3096,3096,19-08-2024,Paid,Maintenance Contract,Divya Singh,No,,0,15,0,Current,None
+INV-0153,CUST-073,Vantage Construction Co.,Retail,Kolkata,07-03-2024,06-04-2024,7930,0,,Overdue,Service Fee,Amit Verma,No,,7930,,801,90+ Days,Critical - Escalate Now
+INV-0154,CUST-074,Metro Freight Forwarders,Retail,Kolkata,23-08-2024,22-09-2024,7846,7846,22-10-2024,Late_Paid,Product Sale,Priya Sharma,No,,0,60,0,Current,None
+INV-0155,CUST-075,Standard Electrical Industries,Retail,Kolkata,22-03-2025,21-04-2025,7658,4747.96,19-04-2025,Partial,Maintenance Contract,Rahul Nair,No,,2910.04,28,0,0-30 Days,Low - Monitor
+INV-0156,CUST-076,Integrated Logistics Partners,Retail,Kolkata,15-06-2024,15-07-2024,3326,0,,Overdue,Product Sale,Sneha Patel,No,,3326,,701,90+ Days,Critical - Escalate Now
+INV-0157,CUST-077,Continental Trading Syndicate,Retail,Kolkata,16-04-2025,16-05-2025,9390,9390,17-06-2025,Late_Paid,Product Sale,Vikram Joshi,No,,0,62,0,Current,None
+INV-0158,CUST-078,Superior Packing Systems,Retail,Kolkata,06-09-2024,06-10-2024,2009,2009,13-09-2024,Paid,Annual License,Anita Reddy,No,,0,7,0,Current,None
+INV-0159,CUST-079,Essential Agro Exports,Retail,Kolkata,02-02-2025,04-03-2025,9254,0,,Overdue,Maintenance Contract,Karan Mehta,No,,9254,,469,90+ Days,Critical - Escalate Now
+INV-0160,CUST-080,Modern Infrastructure Consultants,Retail,Kolkata,19-03-2024,18-04-2024,7769,7769,09-04-2024,Paid,Annual License,Divya Singh,No,,0,21,0,Current,None
+INV-0161,CUST-001,Malhotra Construction Group,Enterprise,Mumbai,23-12-2024,22-01-2025,501618,501618,31-12-2024,Paid,Service Fee,Amit Verma,No,,0,8,0,Current,None
+INV-0162,CUST-002,Khanna Electricals & Co.,Enterprise,Mumbai,19-09-2024,19-10-2024,307311,307311,04-11-2024,Late_Paid,Product Sale,Priya Sharma,No,,0,46,0,Current,None
+INV-0163,CUST-003,Singh Freight Carriers,Enterprise,Mumbai,20-04-2025,20-05-2025,824533,824533,04-07-2025,Late_Paid,Annual License,Rahul Nair,No,,0,75,0,Current,None
+INV-0164,CUST-004,Bhatia Polymers Pvt Ltd,Enterprise,Mumbai,26-11-2024,26-12-2024,854258,854258,28-01-2025,Late_Paid,Service Fee,Sneha Patel,No,,0,63,0,Current,None
+INV-0165,CUST-005,Verma Associates,Enterprise,Mumbai,25-04-2025,25-05-2025,673417,491594.41,16-05-2025,Partial,Maintenance Contract,Vikram Joshi,No,,181822.59,21,0,0-30 Days,Low - Monitor
+INV-0166,CUST-006,Chopra Cold Storage,Enterprise,Mumbai,16-03-2024,15-04-2024,809160,809160,23-04-2024,Late_Paid,Product Sale,Anita Reddy,No,,0,38,0,Current,None
+INV-0167,CUST-007,Sethi Textiles & Fabrics,Enterprise,Mumbai,20-10-2024,19-11-2024,674853,674853,13-11-2024,Paid,Annual License,Karan Mehta,No,,0,24,0,Current,None
+INV-0168,CUST-008,Aggarwal Spices Trading,Enterprise,Mumbai,28-01-2025,27-02-2025,341526,341526,20-02-2025,Paid,Consulting,Divya Singh,No,,0,23,0,Current,None
+INV-0169,CUST-009,Tandon Auto Parts,Enterprise,Mumbai,25-11-2024,25-12-2024,1136568,500089.92,30-12-2024,Partial,Product Sale,Amit Verma,No,,636478.08,35,0,0-30 Days,Low - Monitor
+INV-0170,CUST-010,Gill Agricultural Implements,Enterprise,Mumbai,06-05-2024,05-06-2024,923401,0,,Overdue,Product Sale,Priya Sharma,No,,923401,,741,90+ Days,Critical - Escalate Now
+INV-0171,CUST-011,Dhawan Pharmaceuticals,Mid-Market,Pune,25-03-2025,24-04-2025,61154,61154,10-04-2025,Paid,Maintenance Contract,Rahul Nair,No,,0,16,0,Current,None
+INV-0172,CUST-012,Rawat Real Estate,Mid-Market,Pune,31-01-2025,02-03-2025,98721,98721,06-02-2025,Paid,Annual License,Sneha Patel,No,,0,6,0,Current,None
+INV-0173,CUST-013,Jain Packaging Solutions,Mid-Market,Pune,09-05-2024,08-06-2024,73723,0,,Overdue,Maintenance Contract,Vikram Joshi,No,,73723,,738,90+ Days,Critical - Escalate Now
+INV-0174,CUST-014,Kapur Infrastructure,Mid-Market,Pune,02-06-2024,02-07-2024,179557,179557,16-06-2024,Paid,Maintenance Contract,Anita Reddy,No,,0,14,0,Current,None
+INV-0175,CUST-015,Sahni Hospitality Services,Mid-Market,Pune,12-05-2024,11-06-2024,83470,83470,03-06-2024,Paid,Maintenance Contract,Karan Mehta,No,,0,22,0,Current,None
+INV-0176,CUST-016,Bakshi Steel Syndicate,Mid-Market,Pune,02-12-2024,01-01-2025,154732,154732,23-12-2024,Paid,Consulting,Divya Singh,No,,0,21,0,Current,None
+INV-0177,CUST-017,Sachdeva Marketing Agency,Mid-Market,Pune,19-01-2024,18-02-2024,168982,168982,15-03-2024,Late_Paid,Service Fee,Amit Verma,No,,0,56,0,Current,None
+INV-0178,CUST-018,Chawla Hardware Stores,Mid-Market,Pune,15-07-2024,14-08-2024,59252,59252,22-07-2024,Paid,Service Fee,Priya Sharma,No,,0,7,0,Current,None
+INV-0179,CUST-019,Oberoi Paper Products,Mid-Market,Pune,24-03-2025,23-04-2025,74541,0,,Overdue,Maintenance Contract,Rahul Nair,No,,74541,,419,90+ Days,Critical - Escalate Now
+INV-0180,CUST-020,Luthra Chemical Works,Mid-Market,Pune,02-04-2024,02-05-2024,183159,0,,Overdue,Service Fee,Sneha Patel,No,,183159,,775,90+ Days,Critical - Escalate Now
+INV-0181,CUST-021,Deshmukh Engineering Works,Mid-Market,Delhi,18-06-2024,18-07-2024,147070,147070,15-08-2024,Late_Paid,Consulting,Vikram Joshi,No,,0,58,0,Current,None
+INV-0182,CUST-022,Patel Polymers & Plastics,Mid-Market,Delhi,30-03-2025,29-04-2025,167652,167652,21-04-2025,Paid,Service Fee,Anita Reddy,No,,0,22,0,Current,None
+INV-0183,CUST-023,Shah Global Exports,Mid-Market,Delhi,12-11-2024,12-12-2024,64898,64898,09-01-2025,Late_Paid,Service Fee,Karan Mehta,No,,0,58,0,Current,None
+INV-0184,CUST-024,Kulkarni Consultancy Services,Mid-Market,Delhi,27-09-2024,27-10-2024,71870,0,,Disputed,Consulting,Divya Singh,Yes,Contract Disagreement,71870,,0,0-30 Days,High - Legal Review
+INV-0185,CUST-025,Joshi Precision Tools,Mid-Market,Delhi,27-01-2024,26-02-2024,120296,0,,Overdue,Maintenance Contract,Amit Verma,No,,120296,,841,90+ Days,Critical - Escalate Now
+INV-0186,CUST-026,Mehta Financial Advisors,Mid-Market,Delhi,15-01-2025,14-02-2025,54268,54268,23-01-2025,Paid,Annual License,Priya Sharma,No,,0,8,0,Current,None
+INV-0187,CUST-027,Gandhi Trading House,Mid-Market,Delhi,26-03-2024,25-04-2024,194213,194213,16-04-2024,Paid,Consulting,Rahul Nair,No,,0,21,0,Current,None
+INV-0188,CUST-028,Sawant Marine Services,Mid-Market,Delhi,21-04-2025,21-05-2025,124013,0,,Disputed,Consulting,Sneha Patel,Yes,Quality Issue,124013,,0,0-30 Days,High - Legal Review
+INV-0189,CUST-029,Doshi Dye-Chem Industries,Mid-Market,Delhi,28-02-2025,30-03-2025,114513,114513,17-03-2025,Paid,Service Fee,Vikram Joshi,No,,0,17,0,Current,None
+INV-0190,CUST-030,Parikh Logistics & Warehousing,Mid-Market,Delhi,18-01-2025,17-02-2025,97555,97555,14-02-2025,Paid,Product Sale,Anita Reddy,No,,0,27,0,Current,None
+INV-0191,CUST-031,Kadam Agro Commodities,SME,Bangalore,29-05-2024,28-06-2024,22206,15544.2,12-06-2024,Partial,Consulting,Karan Mehta,No,,6661.8,14,0,0-30 Days,Low - Monitor
+INV-0192,CUST-032,Sheth Diamond Traders,SME,Bangalore,04-04-2025,04-05-2025,45126,45126,25-05-2025,Late_Paid,Product Sale,Divya Singh,No,,0,51,0,Current,None
+INV-0193,CUST-033,Pawar Heavy Equipments,SME,Bangalore,02-06-2024,02-07-2024,17390,17390,25-07-2024,Late_Paid,Product Sale,Amit Verma,No,,0,53,0,Current,None
+INV-0194,CUST-034,Thakkar Food Products,SME,Bangalore,23-11-2024,23-12-2024,48682,0,,Overdue,Consulting,Priya Sharma,No,,48682,,540,90+ Days,Critical - Escalate Now
+INV-0195,CUST-035,Kunte Manufacturing Co.,SME,Bangalore,13-04-2025,13-05-2025,19008,19008,05-05-2025,Paid,Annual License,Rahul Nair,No,,0,22,0,Current,None
+INV-0196,CUST-036,Modi Retail Chain,SME,Bangalore,04-09-2024,04-10-2024,40242,40242,09-10-2024,Late_Paid,Consulting,Sneha Patel,No,,0,35,0,Current,None
+INV-0197,CUST-037,Desai Infrastructure Developers,SME,Bangalore,27-12-2024,26-01-2025,14221,14221,22-01-2025,Paid,Service Fee,Vikram Joshi,No,,0,26,0,Current,None
+INV-0198,CUST-038,Raut Metal Castings,SME,Bangalore,04-01-2025,03-02-2025,36048,36048,24-01-2025,Paid,Consulting,Anita Reddy,No,,0,20,0,Current,None
+INV-0199,CUST-039,Bhatia Oil Refineries,SME,Bangalore,31-01-2025,02-03-2025,33334,33334,16-02-2025,Paid,Product Sale,Karan Mehta,No,,0,16,0,Current,None
+INV-0200,CUST-040,Chavan Logistics Solutions,SME,Bangalore,11-01-2025,10-02-2025,25928,0,,Overdue,Annual License,Divya Singh,No,,25928,,491,90+ Days,Critical - Escalate Now
+INV-0201,CUST-041,Iyer & Associates,SME,Chennai,16-05-2024,15-06-2024,30728,30728,19-07-2024,Late_Paid,Service Fee,Amit Verma,No,,0,64,0,Current,None
+INV-0202,CUST-042,Reddy Infrastructure Projects,SME,Chennai,05-07-2024,04-08-2024,22056,22056,11-08-2024,Late_Paid,Consulting,Priya Sharma,No,,0,37,0,Current,None
+INV-0203,CUST-043,Nair Maritime Agencies,SME,Chennai,25-07-2024,24-08-2024,34111,24559.92,13-08-2024,Partial,Product Sale,Rahul Nair,No,,9551.08,19,0,0-30 Days,Low - Monitor
+INV-0204,CUST-044,Menon Biotech Labs,SME,Chennai,20-01-2025,19-02-2025,30864,0,,Disputed,Maintenance Contract,Sneha Patel,Yes,Price Mismatch,30864,,0,0-30 Days,High - Legal Review
+INV-0205,CUST-045,Naidu Electrical Systems,SME,Chennai,19-10-2024,18-11-2024,22588,22588,10-12-2024,Late_Paid,Maintenance Contract,Vikram Joshi,No,,0,52,0,Current,None
+INV-0206,CUST-046,Rao Automotive Components,SME,Chennai,22-06-2024,22-07-2024,12856,0,,Disputed,Consulting,Anita Reddy,Yes,Duplicate Invoice,12856,,0,0-30 Days,High - Legal Review
+INV-0207,CUST-047,Krishnan Textile Mill,SME,Chennai,23-05-2025,22-06-2025,45549,45549,05-06-2025,Paid,Annual License,Karan Mehta,No,,0,13,0,Current,None
+INV-0208,CUST-048,Subramaniam Exports Pvt Ltd,SME,Chennai,10-03-2025,09-04-2025,11849,11849,24-03-2025,Paid,Annual License,Divya Singh,No,,0,14,0,Current,None
+INV-0209,CUST-049,Pillai Logistics Group,SME,Chennai,15-04-2024,15-05-2024,43223,43223,17-06-2024,Late_Paid,Maintenance Contract,Amit Verma,No,,0,63,0,Current,None
+INV-0210,CUST-050,Venkatesh Engineering Corp,SME,Chennai,12-03-2025,11-04-2025,35924,35924,31-03-2025,Paid,Maintenance Contract,Priya Sharma,No,,0,19,0,Current,None
+INV-0211,CUST-051,Srinivasan Polymers,SME,Hyderabad,27-12-2024,26-01-2025,43688,28397.2,31-01-2025,Partial,Maintenance Contract,Rahul Nair,No,,15290.8,35,0,0-30 Days,Low - Monitor
+INV-0212,CUST-052,Gowda Agri-Business,SME,Hyderabad,17-03-2024,16-04-2024,33454,23083.26,19-04-2024,Partial,Maintenance Contract,Sneha Patel,No,,10370.74,33,0,0-30 Days,Low - Monitor
+INV-0213,CUST-053,Ranganathan Softwares,SME,Hyderabad,05-03-2024,04-04-2024,13602,0,,Overdue,Product Sale,Vikram Joshi,No,,13602,,803,90+ Days,Critical - Escalate Now
+INV-0214,CUST-054,Sivanandam Trading Co.,SME,Hyderabad,29-08-2024,28-09-2024,49817,49817,27-10-2024,Late_Paid,Maintenance Contract,Anita Reddy,No,,0,59,0,Current,None
+INV-0215,CUST-055,Balakrishnan Real Estate,SME,Hyderabad,15-08-2024,14-09-2024,32374,0,,Disputed,Maintenance Contract,Karan Mehta,Yes,Quality Issue,32374,,0,0-30 Days,High - Legal Review
+INV-0216,CUST-056,Ramani Manufacturing,SME,Hyderabad,20-05-2024,19-06-2024,11702,6436.1,06-06-2024,Partial,Maintenance Contract,Divya Singh,No,,5265.9,17,0,0-30 Days,Low - Monitor
+INV-0217,CUST-057,Vijayalakshmi Heavy Industries,SME,Hyderabad,27-01-2024,26-02-2024,38554,38554,26-03-2024,Late_Paid,Annual License,Amit Verma,No,,0,59,0,Current,None
+INV-0218,CUST-058,Jayaraman Logistics,SME,Hyderabad,19-04-2024,19-05-2024,47203,0,,Overdue,Consulting,Priya Sharma,No,,47203,,758,90+ Days,Critical - Escalate Now
+INV-0219,CUST-059,Thomas Marine Eng,SME,Hyderabad,03-03-2024,02-04-2024,48003,0,,Overdue,Service Fee,Rahul Nair,No,,48003,,805,90+ Days,Critical - Escalate Now
+INV-0220,CUST-060,Sunder Rao Traders,SME,Hyderabad,16-03-2024,15-04-2024,39228,39228,11-04-2024,Paid,Product Sale,Sneha Patel,No,,0,26,0,Current,None
+INV-0221,CUST-061,Bharat Industrial Supplies,Retail,Ahmedabad,21-12-2024,20-01-2025,7649,7649,04-02-2025,Late_Paid,Maintenance Contract,Vikram Joshi,No,,0,45,0,Current,None
+INV-0222,CUST-062,Coastal Shipping & Logistics,Retail,Ahmedabad,09-02-2025,11-03-2025,8015,0,,Overdue,Service Fee,Anita Reddy,No,,8015,,462,90+ Days,Critical - Escalate Now
+INV-0223,CUST-063,Summit Engineering Services,Retail,Ahmedabad,30-08-2024,29-09-2024,8729,8729,21-09-2024,Paid,Maintenance Contract,Karan Mehta,No,,0,22,0,Current,None
+INV-0224,CUST-064,Apex Mercantile Group,Retail,Ahmedabad,12-01-2025,11-02-2025,3249,1299.6,24-01-2025,Partial,Annual License,Divya Singh,No,,1949.4,12,0,0-30 Days,Low - Monitor
+INV-0225,CUST-065,Horizon Agri-Tech,Retail,Ahmedabad,11-02-2025,13-03-2025,8878,8878,01-03-2025,Paid,Annual License,Amit Verma,No,,0,18,0,Current,None
+INV-0226,CUST-066,Prime Steel Fabricators,Retail,Ahmedabad,26-08-2024,25-09-2024,9173,0,,Disputed,Product Sale,Priya Sharma,Yes,Duplicate Invoice,9173,,0,0-30 Days,High - Legal Review
+INV-0227,CUST-067,Unity Wholesale Distributors,Retail,Ahmedabad,18-12-2024,17-01-2025,4100,4100,05-01-2025,Paid,Service Fee,Rahul Nair,No,,0,18,0,Current,None
+INV-0228,CUST-068,Zenith Chemical Solutions,Retail,Ahmedabad,26-02-2024,27-03-2024,2068,2068,11-04-2024,Late_Paid,Maintenance Contract,Sneha Patel,No,,0,45,0,Current,None
+INV-0229,CUST-069,Dynamic Infrastructure Pvt Ltd,Retail,Ahmedabad,26-11-2024,26-12-2024,7615,7615,17-12-2024,Paid,Maintenance Contract,Vikram Joshi,No,,0,21,0,Current,None
+INV-0230,CUST-070,Global Trade Connect,Retail,Ahmedabad,16-11-2024,16-12-2024,4783,0,,Overdue,Service Fee,Anita Reddy,No,,4783,,547,90+ Days,Critical - Escalate Now
+INV-0231,CUST-071,Legacy Building Materials,Retail,Kolkata,19-03-2024,18-04-2024,5205,0,,Disputed,Annual License,Karan Mehta,Yes,Contract Disagreement,5205,,0,0-30 Days,High - Legal Review
+INV-0232,CUST-072,Elite Retail Solutions,Retail,Kolkata,11-02-2024,12-03-2024,3694,0,,Overdue,Product Sale,Divya Singh,No,,3694,,826,90+ Days,Critical - Escalate Now
+INV-0233,CUST-073,Vantage Construction Co.,Retail,Kolkata,28-09-2024,28-10-2024,6431,6431,12-12-2024,Late_Paid,Annual License,Amit Verma,No,,0,75,0,Current,None
+INV-0234,CUST-074,Metro Freight Forwarders,Retail,Kolkata,04-09-2024,04-10-2024,6577,0,,Overdue,Maintenance Contract,Priya Sharma,No,,6577,,620,90+ Days,Critical - Escalate Now
+INV-0235,CUST-075,Standard Electrical Industries,Retail,Kolkata,19-02-2025,21-03-2025,6769,6769,01-03-2025,Paid,Product Sale,Rahul Nair,No,,0,10,0,Current,None
+INV-0236,CUST-076,Integrated Logistics Partners,Retail,Kolkata,01-03-2025,31-03-2025,6512,3321.12,21-03-2025,Partial,Maintenance Contract,Sneha Patel,No,,3190.88,20,0,0-30 Days,Low - Monitor
+INV-0237,CUST-077,Continental Trading Syndicate,Retail,Kolkata,19-12-2024,18-01-2025,6103,6103,09-01-2025,Paid,Maintenance Contract,Vikram Joshi,No,,0,21,0,Current,None
+INV-0238,CUST-078,Superior Packing Systems,Retail,Kolkata,16-05-2024,15-06-2024,6445,0,,Overdue,Product Sale,Anita Reddy,No,,6445,,731,90+ Days,Critical - Escalate Now
+INV-0239,CUST-079,Essential Agro Exports,Retail,Kolkata,10-09-2024,10-10-2024,7491,7491,27-09-2024,Paid,Maintenance Contract,Karan Mehta,No,,0,17,0,Current,None
+INV-0240,CUST-080,Modern Infrastructure Consultants,Retail,Kolkata,04-03-2025,03-04-2025,6427,6427,14-05-2025,Late_Paid,Maintenance Contract,Divya Singh,No,,0,71,0,Current,None
+INV-0241,CUST-001,Malhotra Construction Group,Enterprise,Mumbai,27-08-2024,26-09-2024,886690,0,,Overdue,Annual License,Amit Verma,No,,886690,,628,90+ Days,Critical - Escalate Now
+INV-0242,CUST-002,Khanna Electricals & Co.,Enterprise,Mumbai,11-11-2024,11-12-2024,1324060,1324060,02-12-2024,Paid,Consulting,Priya Sharma,No,,0,21,0,Current,None
+INV-0243,CUST-003,Singh Freight Carriers,Enterprise,Mumbai,03-09-2024,03-10-2024,950644,950644,09-09-2024,Paid,Product Sale,Rahul Nair,No,,0,6,0,Current,None
+INV-0244,CUST-004,Bhatia Polymers Pvt Ltd,Enterprise,Mumbai,21-05-2025,20-06-2025,497277,497277,12-06-2025,Paid,Maintenance Contract,Sneha Patel,No,,0,22,0,Current,None
+INV-0245,CUST-005,Verma Associates,Enterprise,Mumbai,20-04-2024,20-05-2024,1068465,1068465,19-06-2024,Late_Paid,Maintenance Contract,Vikram Joshi,No,,0,60,0,Current,None
+INV-0246,CUST-006,Chopra Cold Storage,Enterprise,Mumbai,16-02-2024,17-03-2024,279703,279703,09-03-2024,Paid,Maintenance Contract,Anita Reddy,No,,0,22,0,Current,None
+INV-0247,CUST-007,Sethi Textiles & Fabrics,Enterprise,Mumbai,16-03-2024,15-04-2024,938032,938032,29-03-2024,Paid,Annual License,Karan Mehta,No,,0,13,0,Current,None
+INV-0248,CUST-008,Aggarwal Spices Trading,Enterprise,Mumbai,10-02-2025,12-03-2025,1468408,0,,Disputed,Consulting,Divya Singh,Yes,Quality Issue,1468408,,0,0-30 Days,High - Legal Review
+INV-0249,CUST-009,Tandon Auto Parts,Enterprise,Mumbai,09-01-2025,08-02-2025,607004,607004,30-01-2025,Paid,Annual License,Amit Verma,No,,0,21,0,Current,None
+INV-0250,CUST-010,Gill Agricultural Implements,Enterprise,Mumbai,27-05-2025,26-06-2025,256410,256410,23-06-2025,Paid,Service Fee,Priya Sharma,No,,0,27,0,Current,None
+INV-0251,CUST-011,Dhawan Pharmaceuticals,Mid-Market,Pune,30-04-2025,30-05-2025,109317,109317,06-07-2025,Late_Paid,Annual License,Rahul Nair,No,,0,67,0,Current,None
+INV-0252,CUST-012,Rawat Real Estate,Mid-Market,Pune,20-07-2024,19-08-2024,55062,0,,Overdue,Service Fee,Sneha Patel,No,,55062,,666,90+ Days,Critical - Escalate Now
+INV-0253,CUST-013,Jain Packaging Solutions,Mid-Market,Pune,31-08-2024,30-09-2024,158200,0,,Disputed,Annual License,Vikram Joshi,Yes,Quality Issue,158200,,0,0-30 Days,High - Legal Review
+INV-0254,CUST-014,Kapur Infrastructure,Mid-Market,Pune,06-06-2024,06-07-2024,57676,0,,Disputed,Consulting,Anita Reddy,Yes,Contract Disagreement,57676,,0,0-30 Days,High - Legal Review
+INV-0255,CUST-015,Sahni Hospitality Services,Mid-Market,Pune,25-10-2024,24-11-2024,137039,0,,Overdue,Product Sale,Karan Mehta,No,,137039,,569,90+ Days,Critical - Escalate Now
+INV-0256,CUST-016,Bakshi Steel Syndicate,Mid-Market,Pune,23-06-2024,23-07-2024,171695,171695,19-07-2024,Paid,Service Fee,Divya Singh,No,,0,26,0,Current,None
+INV-0257,CUST-017,Sachdeva Marketing Agency,Mid-Market,Pune,02-02-2024,03-03-2024,155369,155369,09-03-2024,Late_Paid,Service Fee,Amit Verma,No,,0,36,0,Current,None
+INV-0258,CUST-018,Chawla Hardware Stores,Mid-Market,Pune,29-07-2024,28-08-2024,158035,0,,Overdue,Service Fee,Priya Sharma,No,,158035,,657,90+ Days,Critical - Escalate Now
+INV-0259,CUST-019,Oberoi Paper Products,Mid-Market,Pune,27-04-2025,27-05-2025,99756,99756,18-05-2025,Paid,Service Fee,Rahul Nair,No,,0,21,0,Current,None
+INV-0260,CUST-020,Luthra Chemical Works,Mid-Market,Pune,28-11-2024,28-12-2024,162418,162418,26-01-2025,Late_Paid,Annual License,Sneha Patel,No,,0,59,0,Current,None
+INV-0261,CUST-021,Deshmukh Engineering Works,Mid-Market,Delhi,26-06-2024,26-07-2024,148145,148145,12-07-2024,Paid,Annual License,Vikram Joshi,No,,0,16,0,Current,None
+INV-0262,CUST-022,Patel Polymers & Plastics,Mid-Market,Delhi,10-05-2025,09-06-2025,186781,93390.5,27-05-2025,Partial,Maintenance Contract,Anita Reddy,No,,93390.5,17,0,0-30 Days,Low - Monitor
+INV-0263,CUST-023,Shah Global Exports,Mid-Market,Delhi,22-10-2024,21-11-2024,142803,142803,11-11-2024,Paid,Maintenance Contract,Karan Mehta,No,,0,20,0,Current,None
+INV-0264,CUST-024,Kulkarni Consultancy Services,Mid-Market,Delhi,07-10-2024,06-11-2024,170063,170063,03-12-2024,Late_Paid,Consulting,Divya Singh,No,,0,57,0,Current,None
+INV-0265,CUST-025,Joshi Precision Tools,Mid-Market,Delhi,24-10-2024,23-11-2024,86425,86425,12-11-2024,Paid,Maintenance Contract,Amit Verma,No,,0,19,0,Current,None
+INV-0266,CUST-026,Mehta Financial Advisors,Mid-Market,Delhi,22-12-2024,21-01-2025,94344,0,,Overdue,Annual License,Priya Sharma,No,,94344,,511,90+ Days,Critical - Escalate Now
+INV-0267,CUST-027,Gandhi Trading House,Mid-Market,Delhi,26-01-2024,25-02-2024,107318,0,,Overdue,Service Fee,Rahul Nair,No,,107318,,842,90+ Days,Critical - Escalate Now
+INV-0268,CUST-028,Sawant Marine Services,Mid-Market,Delhi,19-08-2024,18-09-2024,157006,78503,20-09-2024,Partial,Product Sale,Sneha Patel,No,,78503,32,0,0-30 Days,Low - Monitor
+INV-0269,CUST-029,Doshi Dye-Chem Industries,Mid-Market,Delhi,12-04-2024,12-05-2024,148806,89283.6,21-05-2024,Partial,Product Sale,Vikram Joshi,No,,59522.4,39,0,0-30 Days,Low - Monitor
+INV-0270,CUST-030,Parikh Logistics & Warehousing,Mid-Market,Delhi,20-02-2025,22-03-2025,111466,111466,17-03-2025,Paid,Consulting,Anita Reddy,No,,0,25,0,Current,None
+INV-0271,CUST-031,Kadam Agro Commodities,SME,Bangalore,21-10-2024,20-11-2024,28780,28780,15-11-2024,Paid,Product Sale,Karan Mehta,No,,0,25,0,Current,None
+INV-0272,CUST-032,Sheth Diamond Traders,SME,Bangalore,25-08-2024,24-09-2024,13153,6839.56,30-09-2024,Partial,Service Fee,Divya Singh,No,,6313.44,36,0,0-30 Days,Low - Monitor
+INV-0273,CUST-033,Pawar Heavy Equipments,SME,Bangalore,07-02-2024,08-03-2024,27629,27629,17-02-2024,Paid,Consulting,Amit Verma,No,,0,10,0,Current,None
+INV-0274,CUST-034,Thakkar Food Products,SME,Bangalore,08-02-2024,09-03-2024,15872,7777.28,09-03-2024,Partial,Maintenance Contract,Priya Sharma,No,,8094.72,30,0,0-30 Days,Low - Monitor
+INV-0275,CUST-035,Kunte Manufacturing Co.,SME,Bangalore,20-05-2025,19-06-2025,33831,33831,08-06-2025,Paid,Annual License,Rahul Nair,No,,0,19,0,Current,None
+INV-0276,CUST-036,Modi Retail Chain,SME,Bangalore,16-07-2024,15-08-2024,34089,34089,18-09-2024,Late_Paid,Service Fee,Sneha Patel,No,,0,64,0,Current,None
+INV-0277,CUST-037,Desai Infrastructure Developers,SME,Bangalore,09-07-2024,08-08-2024,10646,10646,18-09-2024,Late_Paid,Maintenance Contract,Vikram Joshi,No,,0,71,0,Current,None
+INV-0278,CUST-038,Raut Metal Castings,SME,Bangalore,28-06-2024,28-07-2024,41017,41017,03-09-2024,Late_Paid,Consulting,Anita Reddy,No,,0,67,0,Current,None
+INV-0279,CUST-039,Bhatia Oil Refineries,SME,Bangalore,29-03-2024,28-04-2024,43083,43083,11-05-2024,Late_Paid,Service Fee,Karan Mehta,No,,0,43,0,Current,None
+INV-0280,CUST-040,Chavan Logistics Solutions,SME,Bangalore,27-11-2024,27-12-2024,39054,22651.32,21-12-2024,Partial,Maintenance Contract,Divya Singh,No,,16402.68,24,0,0-30 Days,Low - Monitor
+INV-0281,CUST-041,Iyer & Associates,SME,Chennai,03-12-2024,02-01-2025,42204,42204,28-12-2024,Paid,Maintenance Contract,Amit Verma,No,,0,25,0,Current,None
+INV-0282,CUST-042,Reddy Infrastructure Projects,SME,Chennai,29-08-2024,28-09-2024,18031,18031,12-09-2024,Paid,Consulting,Priya Sharma,No,,0,14,0,Current,None
+INV-0283,CUST-043,Nair Maritime Agencies,SME,Chennai,19-02-2025,21-03-2025,34187,34187,05-05-2025,Late_Paid,Product Sale,Rahul Nair,No,,0,75,0,Current,None
+INV-0284,CUST-044,Menon Biotech Labs,SME,Chennai,11-01-2025,10-02-2025,13650,10101,04-02-2025,Partial,Service Fee,Sneha Patel,No,,3549,24,0,0-30 Days,Low - Monitor
+INV-0285,CUST-045,Naidu Electrical Systems,SME,Chennai,17-01-2025,16-02-2025,34601,16262.47,22-02-2025,Partial,Annual License,Vikram Joshi,No,,18338.53,36,0,0-30 Days,Low - Monitor
+INV-0286,CUST-046,Rao Automotive Components,SME,Chennai,10-09-2024,10-10-2024,25003,13001.56,12-10-2024,Partial,Annual License,Anita Reddy,No,,12001.44,32,0,0-30 Days,Low - Monitor
+INV-0287,CUST-047,Krishnan Textile Mill,SME,Chennai,20-03-2024,19-04-2024,34189,26667.42,27-04-2024,Partial,Product Sale,Karan Mehta,No,,7521.58,38,0,0-30 Days,Low - Monitor
+INV-0288,CUST-048,Subramaniam Exports Pvt Ltd,SME,Chennai,26-07-2024,25-08-2024,43265,43265,10-08-2024,Paid,Service Fee,Divya Singh,No,,0,15,0,Current,None
+INV-0289,CUST-049,Pillai Logistics Group,SME,Chennai,28-03-2025,27-04-2025,45753,45753,02-06-2025,Late_Paid,Annual License,Amit Verma,No,,0,66,0,Current,None
+INV-0290,CUST-050,Venkatesh Engineering Corp,SME,Chennai,01-04-2025,01-05-2025,16361,16361,07-06-2025,Late_Paid,Service Fee,Priya Sharma,No,,0,67,0,Current,None
+INV-0291,CUST-051,Srinivasan Polymers,SME,Hyderabad,12-04-2025,12-05-2025,12849,12849,10-05-2025,Paid,Maintenance Contract,Rahul Nair,No,,0,28,0,Current,None
+INV-0292,CUST-052,Gowda Agri-Business,SME,Hyderabad,09-02-2025,11-03-2025,39964,39964,04-03-2025,Paid,Service Fee,Sneha Patel,No,,0,23,0,Current,None
+INV-0293,CUST-053,Ranganathan Softwares,SME,Hyderabad,16-02-2024,17-03-2024,47140,47140,25-03-2024,Late_Paid,Annual License,Vikram Joshi,No,,0,38,0,Current,None
+INV-0294,CUST-054,Sivanandam Trading Co.,SME,Hyderabad,28-01-2025,27-02-2025,35334,0,,Overdue,Service Fee,Anita Reddy,No,,35334,,474,90+ Days,Critical - Escalate Now
+INV-0295,CUST-055,Balakrishnan Real Estate,SME,Hyderabad,06-03-2025,05-04-2025,47785,47785,04-05-2025,Late_Paid,Consulting,Karan Mehta,No,,0,59,0,Current,None
+INV-0296,CUST-056,Ramani Manufacturing,SME,Hyderabad,23-03-2024,22-04-2024,45059,45059,31-03-2024,Paid,Maintenance Contract,Divya Singh,No,,0,8,0,Current,None
+INV-0297,CUST-057,Vijayalakshmi Heavy Industries,SME,Hyderabad,22-01-2025,21-02-2025,48163,0,,Overdue,Product Sale,Amit Verma,No,,48163,,480,90+ Days,Critical - Escalate Now
+INV-0298,CUST-058,Jayaraman Logistics,SME,Hyderabad,01-11-2024,01-12-2024,29336,12614.48,18-11-2024,Partial,Annual License,Priya Sharma,No,,16721.52,17,0,0-30 Days,Low - Monitor
+INV-0299,CUST-059,Thomas Marine Eng,SME,Hyderabad,16-04-2025,16-05-2025,37946,37946,14-05-2025,Paid,Service Fee,Rahul Nair,No,,0,28,0,Current,None
+INV-0300,CUST-060,Sunder Rao Traders,SME,Hyderabad,02-02-2024,03-03-2024,45749,45749,07-02-2024,Paid,Annual License,Sneha Patel,No,,0,5,0,Current,None
+INV-0301,CUST-061,Bharat Industrial Supplies,Retail,Ahmedabad,30-07-2024,29-08-2024,2547,2547,23-08-2024,Paid,Consulting,Vikram Joshi,No,,0,24,0,Current,None
+INV-0302,CUST-062,Coastal Shipping & Logistics,Retail,Ahmedabad,07-09-2024,07-10-2024,8641,8641,19-09-2024,Paid,Consulting,Anita Reddy,No,,0,12,0,Current,None
+INV-0303,CUST-063,Summit Engineering Services,Retail,Ahmedabad,10-08-2024,09-09-2024,8481,3731.64,29-08-2024,Partial,Service Fee,Karan Mehta,No,,4749.36,19,0,0-30 Days,Low - Monitor
+INV-0304,CUST-064,Apex Mercantile Group,Retail,Ahmedabad,22-11-2024,22-12-2024,7417,3856.84,06-12-2024,Partial,Service Fee,Divya Singh,No,,3560.16,14,0,0-30 Days,Low - Monitor
+INV-0305,CUST-065,Horizon Agri-Tech,Retail,Ahmedabad,14-08-2024,13-09-2024,2626,2626,05-09-2024,Paid,Product Sale,Amit Verma,No,,0,22,0,Current,None
+INV-0306,CUST-066,Prime Steel Fabricators,Retail,Ahmedabad,28-06-2024,28-07-2024,4135,4135,02-09-2024,Late_Paid,Annual License,Priya Sharma,No,,0,66,0,Current,None
+INV-0307,CUST-067,Unity Wholesale Distributors,Retail,Ahmedabad,18-12-2024,17-01-2025,4300,4300,02-01-2025,Paid,Annual License,Rahul Nair,No,,0,15,0,Current,None
+INV-0308,CUST-068,Zenith Chemical Solutions,Retail,Ahmedabad,22-02-2025,24-03-2025,2976,2976,02-05-2025,Late_Paid,Service Fee,Sneha Patel,No,,0,69,0,Current,None
+INV-0309,CUST-069,Dynamic Infrastructure Pvt Ltd,Retail,Ahmedabad,03-09-2024,03-10-2024,2875,2875,22-09-2024,Paid,Service Fee,Vikram Joshi,No,,0,19,0,Current,None
+INV-0310,CUST-070,Global Trade Connect,Retail,Ahmedabad,26-02-2025,28-03-2025,6331,6331,17-04-2025,Late_Paid,Consulting,Anita Reddy,No,,0,50,0,Current,None
+INV-0311,CUST-071,Legacy Building Materials,Retail,Kolkata,27-07-2024,26-08-2024,4885,4885,23-09-2024,Late_Paid,Consulting,Karan Mehta,No,,0,58,0,Current,None
+INV-0312,CUST-072,Elite Retail Solutions,Retail,Kolkata,14-07-2024,13-08-2024,9716,9716,07-08-2024,Paid,Annual License,Divya Singh,No,,0,24,0,Current,None
+INV-0313,CUST-073,Vantage Construction Co.,Retail,Kolkata,15-03-2024,14-04-2024,6806,6806,26-03-2024,Paid,Consulting,Amit Verma,No,,0,11,0,Current,None
+INV-0314,CUST-074,Metro Freight Forwarders,Retail,Kolkata,06-11-2024,06-12-2024,4519,2801.78,16-12-2024,Partial,Service Fee,Priya Sharma,No,,1717.22,40,0,0-30 Days,Low - Monitor
+INV-0315,CUST-075,Standard Electrical Industries,Retail,Kolkata,09-10-2024,08-11-2024,7804,0,,Disputed,Consulting,Rahul Nair,Yes,Goods Not Received,7804,,0,0-30 Days,High - Legal Review
+INV-0316,CUST-076,Integrated Logistics Partners,Retail,Kolkata,13-05-2024,12-06-2024,6483,0,,Overdue,Maintenance Contract,Sneha Patel,No,,6483,,734,90+ Days,Critical - Escalate Now
+INV-0317,CUST-077,Continental Trading Syndicate,Retail,Kolkata,24-05-2025,23-06-2025,4199,4199,11-07-2025,Late_Paid,Maintenance Contract,Vikram Joshi,No,,0,48,0,Current,None
+INV-0318,CUST-078,Superior Packing Systems,Retail,Kolkata,16-11-2024,16-12-2024,9329,9329,21-11-2024,Paid,Service Fee,Anita Reddy,No,,0,5,0,Current,None
+INV-0319,CUST-079,Essential Agro Exports,Retail,Kolkata,03-03-2025,02-04-2025,6092,6092,15-03-2025,Paid,Maintenance Contract,Karan Mehta,No,,0,12,0,Current,None
+INV-0320,CUST-080,Modern Infrastructure Consultants,Retail,Kolkata,08-09-2024,08-10-2024,6018,6018,13-11-2024,Late_Paid,Maintenance Contract,Divya Singh,No,,0,66,0,Current,None
+INV-0321,CUST-001,Malhotra Construction Group,Enterprise,Mumbai,16-04-2025,16-05-2025,899342,899342,25-04-2025,Paid,Service Fee,Amit Verma,No,,0,9,0,Current,None
+INV-0322,CUST-002,Khanna Electricals & Co.,Enterprise,Mumbai,15-05-2025,14-06-2025,223873,223873,21-06-2025,Late_Paid,Annual License,Priya Sharma,No,,0,37,0,Current,None
+INV-0323,CUST-003,Singh Freight Carriers,Enterprise,Mumbai,07-03-2025,06-04-2025,1306546,0,,Overdue,Service Fee,Rahul Nair,No,,1306546,,436,90+ Days,Critical - Escalate Now
+INV-0324,CUST-004,Bhatia Polymers Pvt Ltd,Enterprise,Mumbai,10-03-2024,09-04-2024,1333044,1333044,31-03-2024,Paid,Service Fee,Sneha Patel,No,,0,21,0,Current,None
+INV-0325,CUST-005,Verma Associates,Enterprise,Mumbai,09-01-2024,08-02-2024,225189,0,,Overdue,Consulting,Vikram Joshi,No,,225189,,859,90+ Days,Critical - Escalate Now
+INV-0326,CUST-006,Chopra Cold Storage,Enterprise,Mumbai,25-02-2025,27-03-2025,1219266,1219266,11-03-2025,Paid,Annual License,Anita Reddy,No,,0,14,0,Current,None
+INV-0327,CUST-007,Sethi Textiles & Fabrics,Enterprise,Mumbai,29-05-2025,28-06-2025,1073385,1073385,09-07-2025,Late_Paid,Service Fee,Karan Mehta,No,,0,41,0,Current,None
+INV-0328,CUST-008,Aggarwal Spices Trading,Enterprise,Mumbai,16-05-2024,15-06-2024,1257171,0,,Overdue,Maintenance Contract,Divya Singh,No,,1257171,,731,90+ Days,Critical - Escalate Now
+INV-0329,CUST-009,Tandon Auto Parts,Enterprise,Mumbai,04-05-2024,03-06-2024,1459723,0,,Disputed,Consulting,Amit Verma,Yes,Contract Disagreement,1459723,,0,0-30 Days,High - Legal Review
+INV-0330,CUST-010,Gill Agricultural Implements,Enterprise,Mumbai,17-02-2024,18-03-2024,256347,0,,Overdue,Product Sale,Priya Sharma,No,,256347,,820,90+ Days,Critical - Escalate Now
+INV-0331,CUST-011,Dhawan Pharmaceuticals,Mid-Market,Pune,23-01-2025,22-02-2025,112115,112115,08-04-2025,Late_Paid,Product Sale,Rahul Nair,No,,0,75,0,Current,None
+INV-0332,CUST-012,Rawat Real Estate,Mid-Market,Pune,16-10-2024,15-11-2024,147787,0,,Overdue,Maintenance Contract,Sneha Patel,No,,147787,,578,90+ Days,Critical - Escalate Now
+INV-0333,CUST-013,Jain Packaging Solutions,Mid-Market,Pune,24-01-2024,23-02-2024,128606,0,,Overdue,Maintenance Contract,Vikram Joshi,No,,128606,,844,90+ Days,Critical - Escalate Now
+INV-0334,CUST-014,Kapur Infrastructure,Mid-Market,Pune,14-10-2024,13-11-2024,166277,166277,29-10-2024,Paid,Service Fee,Anita Reddy,No,,0,15,0,Current,None
+INV-0335,CUST-015,Sahni Hospitality Services,Mid-Market,Pune,31-07-2024,30-08-2024,87162,87162,14-08-2024,Paid,Product Sale,Karan Mehta,No,,0,14,0,Current,None
+INV-0336,CUST-016,Bakshi Steel Syndicate,Mid-Market,Pune,03-09-2024,03-10-2024,195816,195816,29-10-2024,Late_Paid,Annual License,Divya Singh,No,,0,56,0,Current,None
+INV-0337,CUST-017,Sachdeva Marketing Agency,Mid-Market,Pune,23-05-2024,22-06-2024,149627,149627,20-06-2024,Paid,Annual License,Amit Verma,No,,0,28,0,Current,None
+INV-0338,CUST-018,Chawla Hardware Stores,Mid-Market,Pune,24-02-2024,25-03-2024,188249,188249,20-04-2024,Late_Paid,Product Sale,Priya Sharma,No,,0,56,0,Current,None
+INV-0339,CUST-019,Oberoi Paper Products,Mid-Market,Pune,10-02-2025,12-03-2025,81879,81879,26-04-2025,Late_Paid,Product Sale,Rahul Nair,No,,0,75,0,Current,None
+INV-0340,CUST-020,Luthra Chemical Works,Mid-Market,Pune,11-07-2024,10-08-2024,126608,0,,Overdue,Annual License,Sneha Patel,No,,126608,,675,90+ Days,Critical - Escalate Now
+INV-0341,CUST-021,Deshmukh Engineering Works,Mid-Market,Delhi,09-07-2024,08-08-2024,159813,159813,02-08-2024,Paid,Product Sale,Vikram Joshi,No,,0,24,0,Current,None
+INV-0342,CUST-022,Patel Polymers & Plastics,Mid-Market,Delhi,09-09-2024,09-10-2024,112798,112798,18-09-2024,Paid,Maintenance Contract,Anita Reddy,No,,0,9,0,Current,None
+INV-0343,CUST-023,Shah Global Exports,Mid-Market,Delhi,06-06-2024,06-07-2024,168189,168189,14-06-2024,Paid,Maintenance Contract,Karan Mehta,No,,0,8,0,Current,None
+INV-0344,CUST-024,Kulkarni Consultancy Services,Mid-Market,Delhi,06-01-2024,05-02-2024,86121,86121,27-02-2024,Late_Paid,Maintenance Contract,Divya Singh,No,,0,52,0,Current,None
+INV-0345,CUST-025,Joshi Precision Tools,Mid-Market,Delhi,11-10-2024,10-11-2024,138994,0,,Disputed,Consulting,Amit Verma,Yes,Contract Disagreement,138994,,0,0-30 Days,High - Legal Review
+INV-0346,CUST-026,Mehta Financial Advisors,Mid-Market,Delhi,10-10-2024,09-11-2024,178375,0,,Overdue,Maintenance Contract,Priya Sharma,No,,178375,,584,90+ Days,Critical - Escalate Now
+INV-0347,CUST-027,Gandhi Trading House,Mid-Market,Delhi,30-07-2024,29-08-2024,133867,0,,Overdue,Maintenance Contract,Rahul Nair,No,,133867,,656,90+ Days,Critical - Escalate Now
+INV-0348,CUST-028,Sawant Marine Services,Mid-Market,Delhi,27-03-2024,26-04-2024,151033,151033,17-04-2024,Paid,Annual License,Sneha Patel,No,,0,21,0,Current,None
+INV-0349,CUST-029,Doshi Dye-Chem Industries,Mid-Market,Delhi,24-01-2025,23-02-2025,132305,132305,06-02-2025,Paid,Maintenance Contract,Vikram Joshi,No,,0,13,0,Current,None
+INV-0350,CUST-030,Parikh Logistics & Warehousing,Mid-Market,Delhi,29-05-2024,28-06-2024,83578,83578,16-06-2024,Paid,Maintenance Contract,Anita Reddy,No,,0,18,0,Current,None
+INV-0351,CUST-031,Kadam Agro Commodities,SME,Bangalore,10-05-2025,09-06-2025,44774,44774,22-05-2025,Paid,Maintenance Contract,Karan Mehta,No,,0,12,0,Current,None
+INV-0352,CUST-032,Sheth Diamond Traders,SME,Bangalore,19-07-2024,18-08-2024,42476,42476,23-08-2024,Late_Paid,Maintenance Contract,Divya Singh,No,,0,35,0,Current,None
+INV-0353,CUST-033,Pawar Heavy Equipments,SME,Bangalore,06-12-2024,05-01-2025,28303,28303,07-02-2025,Late_Paid,Maintenance Contract,Amit Verma,No,,0,63,0,Current,None
+INV-0354,CUST-034,Thakkar Food Products,SME,Bangalore,16-03-2025,15-04-2025,29777,29777,31-03-2025,Paid,Maintenance Contract,Priya Sharma,No,,0,15,0,Current,None
+INV-0355,CUST-035,Kunte Manufacturing Co.,SME,Bangalore,24-07-2024,23-08-2024,12239,8812.08,12-08-2024,Partial,Consulting,Rahul Nair,No,,3426.92,19,0,0-30 Days,Low - Monitor
+INV-0356,CUST-036,Modi Retail Chain,SME,Bangalore,05-07-2024,04-08-2024,32127,0,,Overdue,Consulting,Sneha Patel,No,,32127,,681,90+ Days,Critical - Escalate Now
+INV-0357,CUST-037,Desai Infrastructure Developers,SME,Bangalore,23-07-2024,22-08-2024,32375,32375,28-07-2024,Paid,Annual License,Vikram Joshi,No,,0,5,0,Current,None
+INV-0358,CUST-038,Raut Metal Castings,SME,Bangalore,02-08-2024,01-09-2024,46001,46001,02-10-2024,Late_Paid,Product Sale,Anita Reddy,No,,0,61,0,Current,None
+INV-0359,CUST-039,Bhatia Oil Refineries,SME,Bangalore,22-05-2024,21-06-2024,16060,16060,05-07-2024,Late_Paid,Maintenance Contract,Karan Mehta,No,,0,44,0,Current,None
+INV-0360,CUST-040,Chavan Logistics Solutions,SME,Bangalore,21-01-2025,20-02-2025,42063,42063,22-03-2025,Late_Paid,Annual License,Divya Singh,No,,0,60,0,Current,None
+INV-0361,CUST-041,Iyer & Associates,SME,Chennai,04-03-2025,03-04-2025,39867,39867,28-03-2025,Paid,Annual License,Amit Verma,No,,0,24,0,Current,None
+INV-0362,CUST-042,Reddy Infrastructure Projects,SME,Chennai,21-04-2024,21-05-2024,35357,35357,04-07-2024,Late_Paid,Service Fee,Priya Sharma,No,,0,74,0,Current,None
+INV-0363,CUST-043,Nair Maritime Agencies,SME,Chennai,06-01-2024,05-02-2024,17624,0,,Disputed,Consulting,Rahul Nair,Yes,Price Mismatch,17624,,0,0-30 Days,High - Legal Review
+INV-0364,CUST-044,Menon Biotech Labs,SME,Chennai,21-09-2024,21-10-2024,22020,22020,07-10-2024,Paid,Consulting,Sneha Patel,No,,0,16,0,Current,None
+INV-0365,CUST-045,Naidu Electrical Systems,SME,Chennai,04-09-2024,04-10-2024,27749,0,,Disputed,Maintenance Contract,Vikram Joshi,Yes,Price Mismatch,27749,,0,0-30 Days,High - Legal Review
+INV-0366,CUST-046,Rao Automotive Components,SME,Chennai,01-03-2025,31-03-2025,18366,0,,Overdue,Product Sale,Anita Reddy,No,,18366,,442,90+ Days,Critical - Escalate Now
+INV-0367,CUST-047,Krishnan Textile Mill,SME,Chennai,22-12-2024,21-01-2025,46885,46885,12-01-2025,Paid,Service Fee,Karan Mehta,No,,0,21,0,Current,None
+INV-0368,CUST-048,Subramaniam Exports Pvt Ltd,SME,Chennai,22-12-2024,21-01-2025,12693,12693,15-02-2025,Late_Paid,Consulting,Divya Singh,No,,0,55,0,Current,None
+INV-0369,CUST-049,Pillai Logistics Group,SME,Chennai,03-11-2024,03-12-2024,37266,37266,29-12-2024,Late_Paid,Product Sale,Amit Verma,No,,0,56,0,Current,None
+INV-0370,CUST-050,Venkatesh Engineering Corp,SME,Chennai,17-06-2024,17-07-2024,11535,11535,27-06-2024,Paid,Annual License,Priya Sharma,No,,0,10,0,Current,None
+INV-0371,CUST-051,Srinivasan Polymers,SME,Hyderabad,12-06-2024,12-07-2024,39215,39215,31-07-2024,Late_Paid,Consulting,Rahul Nair,No,,0,49,0,Current,None
+INV-0372,CUST-052,Gowda Agri-Business,SME,Hyderabad,07-07-2024,06-08-2024,30914,13911.3,05-08-2024,Partial,Consulting,Sneha Patel,No,,17002.7,29,0,0-30 Days,Low - Monitor
+INV-0373,CUST-053,Ranganathan Softwares,SME,Hyderabad,05-04-2025,05-05-2025,13822,7049.22,21-04-2025,Partial,Product Sale,Vikram Joshi,No,,6772.78,16,0,0-30 Days,Low - Monitor
+INV-0374,CUST-054,Sivanandam Trading Co.,SME,Hyderabad,05-03-2024,04-04-2024,34992,26943.84,29-03-2024,Partial,Maintenance Contract,Anita Reddy,No,,8048.16,24,0,0-30 Days,Low - Monitor
+INV-0375,CUST-055,Balakrishnan Real Estate,SME,Hyderabad,25-09-2024,25-10-2024,25236,10851.48,15-10-2024,Partial,Annual License,Karan Mehta,No,,14384.52,20,0,0-30 Days,Low - Monitor
+INV-0376,CUST-056,Ramani Manufacturing,SME,Hyderabad,01-02-2025,03-03-2025,36192,36192,30-03-2025,Late_Paid,Maintenance Contract,Divya Singh,No,,0,57,0,Current,None
+INV-0377,CUST-057,Vijayalakshmi Heavy Industries,SME,Hyderabad,25-06-2024,25-07-2024,20517,20517,18-07-2024,Paid,Annual License,Amit Verma,No,,0,23,0,Current,None
+INV-0378,CUST-058,Jayaraman Logistics,SME,Hyderabad,17-05-2024,16-06-2024,17247,17247,25-05-2024,Paid,Maintenance Contract,Priya Sharma,No,,0,8,0,Current,None
+INV-0379,CUST-059,Thomas Marine Eng,SME,Hyderabad,17-01-2025,16-02-2025,49935,49935,10-02-2025,Paid,Consulting,Rahul Nair,No,,0,24,0,Current,None
+INV-0380,CUST-060,Sunder Rao Traders,SME,Hyderabad,27-01-2025,26-02-2025,35371,35371,23-02-2025,Paid,Annual License,Sneha Patel,No,,0,27,0,Current,None
+INV-0381,CUST-061,Bharat Industrial Supplies,Retail,Ahmedabad,19-06-2024,19-07-2024,2888,2888,04-07-2024,Paid,Service Fee,Vikram Joshi,No,,0,15,0,Current,None
+INV-0382,CUST-062,Coastal Shipping & Logistics,Retail,Ahmedabad,09-04-2024,09-05-2024,7208,0,,Disputed,Consulting,Anita Reddy,Yes,Goods Not Received,7208,,0,0-30 Days,High - Legal Review
+INV-0383,CUST-063,Summit Engineering Services,Retail,Ahmedabad,21-05-2025,20-06-2025,7051,7051,17-06-2025,Paid,Consulting,Karan Mehta,No,,0,27,0,Current,None
+INV-0384,CUST-064,Apex Mercantile Group,Retail,Ahmedabad,15-05-2025,14-06-2025,3958,3958,29-05-2025,Paid,Service Fee,Divya Singh,No,,0,14,0,Current,None
+INV-0385,CUST-065,Horizon Agri-Tech,Retail,Ahmedabad,08-10-2024,07-11-2024,7510,7510,27-10-2024,Paid,Service Fee,Amit Verma,No,,0,19,0,Current,None
+INV-0386,CUST-066,Prime Steel Fabricators,Retail,Ahmedabad,22-05-2025,21-06-2025,3115,1993.6,25-06-2025,Partial,Annual License,Priya Sharma,No,,1121.4,34,0,0-30 Days,Low - Monitor
+INV-0387,CUST-067,Unity Wholesale Distributors,Retail,Ahmedabad,06-10-2024,05-11-2024,3319,0,,Overdue,Consulting,Rahul Nair,No,,3319,,588,90+ Days,Critical - Escalate Now
+INV-0388,CUST-068,Zenith Chemical Solutions,Retail,Ahmedabad,11-03-2025,10-04-2025,8651,8651,17-04-2025,Late_Paid,Maintenance Contract,Sneha Patel,No,,0,37,0,Current,None
+INV-0389,CUST-069,Dynamic Infrastructure Pvt Ltd,Retail,Ahmedabad,26-09-2024,26-10-2024,5299,2702.49,09-10-2024,Partial,Consulting,Vikram Joshi,No,,2596.51,13,0,0-30 Days,Low - Monitor
+INV-0390,CUST-070,Global Trade Connect,Retail,Ahmedabad,25-03-2024,24-04-2024,8006,0,,Disputed,Annual License,Anita Reddy,Yes,Duplicate Invoice,8006,,0,0-30 Days,High - Legal Review
+INV-0391,CUST-071,Legacy Building Materials,Retail,Kolkata,22-05-2024,21-06-2024,2694,2694,14-06-2024,Paid,Product Sale,Karan Mehta,No,,0,23,0,Current,None
+INV-0392,CUST-072,Elite Retail Solutions,Retail,Kolkata,26-12-2024,25-01-2025,7509,0,,Overdue,Maintenance Contract,Divya Singh,No,,7509,,507,90+ Days,Critical - Escalate Now
+INV-0393,CUST-073,Vantage Construction Co.,Retail,Kolkata,23-10-2024,22-11-2024,6763,6763,23-12-2024,Late_Paid,Service Fee,Amit Verma,No,,0,61,0,Current,None
+INV-0394,CUST-074,Metro Freight Forwarders,Retail,Kolkata,07-05-2024,06-06-2024,9253,0,,Overdue,Service Fee,Priya Sharma,No,,9253,,740,90+ Days,Critical - Escalate Now
+INV-0395,CUST-075,Standard Electrical Industries,Retail,Kolkata,22-10-2024,21-11-2024,9064,0,,Disputed,Consulting,Rahul Nair,Yes,Goods Not Received,9064,,0,0-30 Days,High - Legal Review
+INV-0396,CUST-076,Integrated Logistics Partners,Retail,Kolkata,25-07-2024,24-08-2024,6327,0,,Overdue,Product Sale,Sneha Patel,No,,6327,,661,90+ Days,Critical - Escalate Now
+INV-0397,CUST-077,Continental Trading Syndicate,Retail,Kolkata,11-10-2024,10-11-2024,5302,5302,16-12-2024,Late_Paid,Consulting,Vikram Joshi,No,,0,66,0,Current,None
+INV-0398,CUST-078,Superior Packing Systems,Retail,Kolkata,03-01-2024,02-02-2024,2342,2342,28-01-2024,Paid,Consulting,Anita Reddy,No,,0,25,0,Current,None
+INV-0399,CUST-079,Essential Agro Exports,Retail,Kolkata,07-08-2024,06-09-2024,2229,0,,Overdue,Service Fee,Karan Mehta,No,,2229,,648,90+ Days,Critical - Escalate Now
+INV-0400,CUST-080,Modern Infrastructure Consultants,Retail,Kolkata,21-05-2025,20-06-2025,9218,9218,30-07-2025,Late_Paid,Maintenance Contract,Divya Singh,No,,0,70,0,Current,None
+INV-0401,CUST-001,Malhotra Construction Group,Enterprise,Mumbai,13-05-2024,12-06-2024,906930,906930,08-06-2024,Paid,Maintenance Contract,Amit Verma,No,,0,26,0,Current,None
+INV-0402,CUST-002,Khanna Electricals & Co.,Enterprise,Mumbai,17-02-2024,18-03-2024,556966,384306.54,25-03-2024,Partial,Product Sale,Priya Sharma,No,,172659.46,37,0,0-30 Days,Low - Monitor
+INV-0403,CUST-003,Singh Freight Carriers,Enterprise,Mumbai,27-03-2025,26-04-2025,1223219,941878.63,05-05-2025,Partial,Service Fee,Rahul Nair,No,,281340.37,39,0,0-30 Days,Low - Monitor
+INV-0404,CUST-004,Bhatia Polymers Pvt Ltd,Enterprise,Mumbai,08-05-2024,07-06-2024,562404,0,,Disputed,Product Sale,Sneha Patel,Yes,Quality Issue,562404,,0,0-30 Days,High - Legal Review
+INV-0405,CUST-005,Verma Associates,Enterprise,Mumbai,15-01-2025,14-02-2025,514347,514347,01-02-2025,Paid,Product Sale,Vikram Joshi,No,,0,17,0,Current,None
+INV-0406,CUST-006,Chopra Cold Storage,Enterprise,Mumbai,27-08-2024,26-09-2024,667467,360432.18,21-09-2024,Partial,Product Sale,Anita Reddy,No,,307034.82,25,0,0-30 Days,Low - Monitor
+INV-0407,CUST-007,Sethi Textiles & Fabrics,Enterprise,Mumbai,15-05-2024,14-06-2024,1165440,1165440,20-05-2024,Paid,Product Sale,Karan Mehta,No,,0,5,0,Current,None
+INV-0408,CUST-008,Aggarwal Spices Trading,Enterprise,Mumbai,03-05-2024,02-06-2024,315014,315014,23-05-2024,Paid,Service Fee,Divya Singh,No,,0,20,0,Current,None
+INV-0409,CUST-009,Tandon Auto Parts,Enterprise,Mumbai,22-08-2024,21-09-2024,600835,600835,06-09-2024,Paid,Product Sale,Amit Verma,No,,0,15,0,Current,None
+INV-0410,CUST-010,Gill Agricultural Implements,Enterprise,Mumbai,02-11-2024,02-12-2024,406480,406480,09-11-2024,Paid,Service Fee,Priya Sharma,No,,0,7,0,Current,None
+INV-0411,CUST-011,Dhawan Pharmaceuticals,Mid-Market,Pune,09-01-2024,08-02-2024,193737,193737,25-01-2024,Paid,Consulting,Rahul Nair,No,,0,16,0,Current,None
+INV-0412,CUST-012,Rawat Real Estate,Mid-Market,Pune,04-06-2024,04-07-2024,100595,100595,14-07-2024,Late_Paid,Service Fee,Sneha Patel,No,,0,40,0,Current,None
+INV-0413,CUST-013,Jain Packaging Solutions,Mid-Market,Pune,23-05-2024,22-06-2024,104026,104026,24-07-2024,Late_Paid,Maintenance Contract,Vikram Joshi,No,,0,62,0,Current,None
+INV-0414,CUST-014,Kapur Infrastructure,Mid-Market,Pune,10-10-2024,09-11-2024,139914,0,,Overdue,Service Fee,Anita Reddy,No,,139914,,584,90+ Days,Critical - Escalate Now
+INV-0415,CUST-015,Sahni Hospitality Services,Mid-Market,Pune,15-04-2024,15-05-2024,72126,0,,Overdue,Maintenance Contract,Karan Mehta,No,,72126,,762,90+ Days,Critical - Escalate Now
+INV-0416,CUST-016,Bakshi Steel Syndicate,Mid-Market,Pune,12-07-2024,11-08-2024,84974,84974,24-07-2024,Paid,Product Sale,Divya Singh,No,,0,12,0,Current,None
+INV-0417,CUST-017,Sachdeva Marketing Agency,Mid-Market,Pune,27-09-2024,27-10-2024,163990,0,,Disputed,Annual License,Amit Verma,Yes,Price Mismatch,163990,,0,0-30 Days,High - Legal Review
+INV-0418,CUST-018,Chawla Hardware Stores,Mid-Market,Pune,16-03-2025,15-04-2025,94045,0,,Overdue,Consulting,Priya Sharma,No,,94045,,427,90+ Days,Critical - Escalate Now
+INV-0419,CUST-019,Oberoi Paper Products,Mid-Market,Pune,06-03-2025,05-04-2025,169674,169674,13-03-2025,Paid,Consulting,Rahul Nair,No,,0,7,0,Current,None
+INV-0420,CUST-020,Luthra Chemical Works,Mid-Market,Pune,31-01-2024,01-03-2024,165194,0,,Overdue,Product Sale,Sneha Patel,No,,165194,,837,90+ Days,Critical - Escalate Now
+INV-0421,CUST-021,Deshmukh Engineering Works,Mid-Market,Delhi,20-10-2024,19-11-2024,174112,174112,16-11-2024,Paid,Consulting,Vikram Joshi,No,,0,27,0,Current,None
+INV-0422,CUST-022,Patel Polymers & Plastics,Mid-Market,Delhi,25-03-2024,24-04-2024,145334,109000.5,06-04-2024,Partial,Maintenance Contract,Anita Reddy,No,,36333.5,12,0,0-30 Days,Low - Monitor
+INV-0423,CUST-023,Shah Global Exports,Mid-Market,Delhi,27-07-2024,26-08-2024,134697,134697,11-08-2024,Paid,Annual License,Karan Mehta,No,,0,15,0,Current,None
+INV-0424,CUST-024,Kulkarni Consultancy Services,Mid-Market,Delhi,08-03-2024,07-04-2024,153769,153769,14-03-2024,Paid,Service Fee,Divya Singh,No,,0,6,0,Current,None
+INV-0425,CUST-025,Joshi Precision Tools,Mid-Market,Delhi,29-03-2024,28-04-2024,184618,125540.24,09-04-2024,Partial,Consulting,Amit Verma,No,,59077.76,11,0,0-30 Days,Low - Monitor
+INV-0426,CUST-026,Mehta Financial Advisors,Mid-Market,Delhi,28-06-2024,28-07-2024,56727,56727,08-07-2024,Paid,Product Sale,Priya Sharma,No,,0,10,0,Current,None
+INV-0427,CUST-027,Gandhi Trading House,Mid-Market,Delhi,21-12-2024,20-01-2025,100501,100501,17-02-2025,Late_Paid,Service Fee,Rahul Nair,No,,0,58,0,Current,None
+INV-0428,CUST-028,Sawant Marine Services,Mid-Market,Delhi,02-10-2024,01-11-2024,187623,187623,17-10-2024,Paid,Product Sale,Sneha Patel,No,,0,15,0,Current,None
+INV-0429,CUST-029,Doshi Dye-Chem Industries,Mid-Market,Delhi,05-10-2024,04-11-2024,189056,189056,19-12-2024,Late_Paid,Annual License,Vikram Joshi,No,,0,75,0,Current,None
+INV-0430,CUST-030,Parikh Logistics & Warehousing,Mid-Market,Delhi,23-05-2025,22-06-2025,87000,87000,28-07-2025,Late_Paid,Product Sale,Anita Reddy,No,,0,66,0,Current,None
+INV-0431,CUST-031,Kadam Agro Commodities,SME,Bangalore,20-10-2024,19-11-2024,25778,0,,Overdue,Product Sale,Karan Mehta,No,,25778,,574,90+ Days,Critical - Escalate Now
+INV-0432,CUST-032,Sheth Diamond Traders,SME,Bangalore,21-08-2024,20-09-2024,49293,49293,26-08-2024,Paid,Product Sale,Divya Singh,No,,0,5,0,Current,None
+INV-0433,CUST-033,Pawar Heavy Equipments,SME,Bangalore,17-02-2024,18-03-2024,23917,23917,03-04-2024,Late_Paid,Service Fee,Amit Verma,No,,0,46,0,Current,None
+INV-0434,CUST-034,Thakkar Food Products,SME,Bangalore,05-03-2025,04-04-2025,23295,23295,02-04-2025,Paid,Consulting,Priya Sharma,No,,0,28,0,Current,None
+INV-0435,CUST-035,Kunte Manufacturing Co.,SME,Bangalore,04-10-2024,03-11-2024,35577,35577,25-10-2024,Paid,Product Sale,Rahul Nair,No,,0,21,0,Current,None
+INV-0436,CUST-036,Modi Retail Chain,SME,Bangalore,02-07-2024,01-08-2024,13157,13157,09-07-2024,Paid,Consulting,Sneha Patel,No,,0,7,0,Current,None
+INV-0437,CUST-037,Desai Infrastructure Developers,SME,Bangalore,16-10-2024,15-11-2024,31746,31746,25-11-2024,Late_Paid,Maintenance Contract,Vikram Joshi,No,,0,40,0,Current,None
+INV-0438,CUST-038,Raut Metal Castings,SME,Bangalore,12-04-2025,12-05-2025,29153,29153,22-06-2025,Late_Paid,Maintenance Contract,Anita Reddy,No,,0,71,0,Current,None
+INV-0439,CUST-039,Bhatia Oil Refineries,SME,Bangalore,05-09-2024,05-10-2024,49490,26229.7,02-10-2024,Partial,Service Fee,Karan Mehta,No,,23260.3,27,0,0-30 Days,Low - Monitor
+INV-0440,CUST-040,Chavan Logistics Solutions,SME,Bangalore,03-06-2024,03-07-2024,44434,44434,15-06-2024,Paid,Product Sale,Divya Singh,No,,0,12,0,Current,None
+INV-0441,CUST-041,Iyer & Associates,SME,Chennai,01-01-2024,31-01-2024,10150,0,,Overdue,Maintenance Contract,Amit Verma,No,,10150,,867,90+ Days,Critical - Escalate Now
+INV-0442,CUST-042,Reddy Infrastructure Projects,SME,Chennai,10-11-2024,10-12-2024,44471,44471,30-11-2024,Paid,Consulting,Priya Sharma,No,,0,20,0,Current,None
+INV-0443,CUST-043,Nair Maritime Agencies,SME,Chennai,25-05-2024,24-06-2024,35410,35410,13-07-2024,Late_Paid,Product Sale,Rahul Nair,No,,0,49,0,Current,None
+INV-0444,CUST-044,Menon Biotech Labs,SME,Chennai,26-02-2025,28-03-2025,23608,23608,26-03-2025,Paid,Consulting,Sneha Patel,No,,0,28,0,Current,None
+INV-0445,CUST-045,Naidu Electrical Systems,SME,Chennai,30-10-2024,29-11-2024,17610,0,,Overdue,Product Sale,Vikram Joshi,No,,17610,,564,90+ Days,Critical - Escalate Now
+INV-0446,CUST-046,Rao Automotive Components,SME,Chennai,04-03-2024,03-04-2024,23836,23836,18-03-2024,Paid,Service Fee,Anita Reddy,No,,0,14,0,Current,None
+INV-0447,CUST-047,Krishnan Textile Mill,SME,Chennai,18-11-2024,18-12-2024,37477,37477,03-12-2024,Paid,Maintenance Contract,Karan Mehta,No,,0,15,0,Current,None
+INV-0448,CUST-048,Subramaniam Exports Pvt Ltd,SME,Chennai,05-10-2024,04-11-2024,17461,17461,28-10-2024,Paid,Service Fee,Divya Singh,No,,0,23,0,Current,None
+INV-0449,CUST-049,Pillai Logistics Group,SME,Chennai,27-07-2024,26-08-2024,43986,0,,Disputed,Consulting,Amit Verma,Yes,Quality Issue,43986,,0,0-30 Days,High - Legal Review
+INV-0450,CUST-050,Venkatesh Engineering Corp,SME,Chennai,25-08-2024,24-09-2024,42894,0,,Disputed,Consulting,Priya Sharma,Yes,Quality Issue,42894,,0,0-30 Days,High - Legal Review
+INV-0451,CUST-051,Srinivasan Polymers,SME,Hyderabad,02-05-2024,01-06-2024,33766,33766,08-05-2024,Paid,Annual License,Rahul Nair,No,,0,6,0,Current,None
+INV-0452,CUST-052,Gowda Agri-Business,SME,Hyderabad,21-07-2024,20-08-2024,28026,0,,Overdue,Maintenance Contract,Sneha Patel,No,,28026,,665,90+ Days,Critical - Escalate Now
+INV-0453,CUST-053,Ranganathan Softwares,SME,Hyderabad,20-02-2024,21-03-2024,25476,25476,25-02-2024,Paid,Service Fee,Vikram Joshi,No,,0,5,0,Current,None
+INV-0454,CUST-054,Sivanandam Trading Co.,SME,Hyderabad,08-04-2025,08-05-2025,24783,24783,27-04-2025,Paid,Product Sale,Anita Reddy,No,,0,19,0,Current,None
+INV-0455,CUST-055,Balakrishnan Real Estate,SME,Hyderabad,07-03-2024,06-04-2024,20138,0,,Overdue,Service Fee,Karan Mehta,No,,20138,,801,90+ Days,Critical - Escalate Now
+INV-0456,CUST-056,Ramani Manufacturing,SME,Hyderabad,14-02-2025,16-03-2025,47306,47306,09-03-2025,Paid,Annual License,Divya Singh,No,,0,23,0,Current,None
+INV-0457,CUST-057,Vijayalakshmi Heavy Industries,SME,Hyderabad,18-02-2025,20-03-2025,32278,0,,Disputed,Service Fee,Amit Verma,Yes,Duplicate Invoice,32278,,0,0-30 Days,High - Legal Review
+INV-0458,CUST-058,Jayaraman Logistics,SME,Hyderabad,04-04-2024,04-05-2024,34380,13752,28-04-2024,Partial,Product Sale,Priya Sharma,No,,20628,24,0,0-30 Days,Low - Monitor
+INV-0459,CUST-059,Thomas Marine Eng,SME,Hyderabad,21-06-2024,21-07-2024,12141,12141,11-07-2024,Paid,Consulting,Rahul Nair,No,,0,20,0,Current,None
+INV-0460,CUST-060,Sunder Rao Traders,SME,Hyderabad,19-04-2024,19-05-2024,16151,0,,Overdue,Maintenance Contract,Sneha Patel,No,,16151,,758,90+ Days,Critical - Escalate Now
+INV-0461,CUST-061,Bharat Industrial Supplies,Retail,Ahmedabad,08-10-2024,07-11-2024,2443,1490.23,06-11-2024,Partial,Product Sale,Vikram Joshi,No,,952.77,29,0,0-30 Days,Low - Monitor
+INV-0462,CUST-062,Coastal Shipping & Logistics,Retail,Ahmedabad,29-10-2024,28-11-2024,2318,2318,05-11-2024,Paid,Product Sale,Anita Reddy,No,,0,7,0,Current,None
+INV-0463,CUST-063,Summit Engineering Services,Retail,Ahmedabad,07-05-2024,06-06-2024,6982,0,,Overdue,Annual License,Karan Mehta,No,,6982,,740,90+ Days,Critical - Escalate Now
+INV-0464,CUST-064,Apex Mercantile Group,Retail,Ahmedabad,05-10-2024,04-11-2024,2991,0,,Overdue,Consulting,Divya Singh,No,,2991,,589,90+ Days,Critical - Escalate Now
+INV-0465,CUST-065,Horizon Agri-Tech,Retail,Ahmedabad,18-12-2024,17-01-2025,3227,3227,31-12-2024,Paid,Consulting,Amit Verma,No,,0,13,0,Current,None
+INV-0466,CUST-066,Prime Steel Fabricators,Retail,Ahmedabad,27-01-2024,26-02-2024,7019,7019,19-03-2024,Late_Paid,Product Sale,Priya Sharma,No,,0,52,0,Current,None
+INV-0467,CUST-067,Unity Wholesale Distributors,Retail,Ahmedabad,28-04-2025,28-05-2025,5719,5719,08-06-2025,Late_Paid,Service Fee,Rahul Nair,No,,0,41,0,Current,None
+INV-0468,CUST-068,Zenith Chemical Solutions,Retail,Ahmedabad,03-09-2024,03-10-2024,6000,6000,26-09-2024,Paid,Service Fee,Sneha Patel,No,,0,23,0,Current,None
+INV-0469,CUST-069,Dynamic Infrastructure Pvt Ltd,Retail,Ahmedabad,29-12-2024,28-01-2025,2868,2868,17-02-2025,Late_Paid,Service Fee,Vikram Joshi,No,,0,50,0,Current,None
+INV-0470,CUST-070,Global Trade Connect,Retail,Ahmedabad,26-12-2024,25-01-2025,7125,0,,Disputed,Annual License,Anita Reddy,Yes,Price Mismatch,7125,,0,0-30 Days,High - Legal Review
+INV-0471,CUST-071,Legacy Building Materials,Retail,Kolkata,25-05-2024,24-06-2024,7813,5078.45,09-06-2024,Partial,Consulting,Karan Mehta,No,,2734.55,15,0,0-30 Days,Low - Monitor
+INV-0472,CUST-072,Elite Retail Solutions,Retail,Kolkata,08-02-2024,09-03-2024,4723,2503.19,05-03-2024,Partial,Annual License,Divya Singh,No,,2219.81,26,0,0-30 Days,Low - Monitor
+INV-0473,CUST-073,Vantage Construction Co.,Retail,Kolkata,01-01-2024,31-01-2024,6596,3100.12,16-01-2024,Partial,Service Fee,Amit Verma,No,,3495.88,15,0,0-30 Days,Low - Monitor
+INV-0474,CUST-074,Metro Freight Forwarders,Retail,Kolkata,01-03-2024,31-03-2024,4382,4382,22-03-2024,Paid,Product Sale,Priya Sharma,No,,0,21,0,Current,None
+INV-0475,CUST-075,Standard Electrical Industries,Retail,Kolkata,15-03-2024,14-04-2024,3632,3632,25-04-2024,Late_Paid,Annual License,Rahul Nair,No,,0,41,0,Current,None
+INV-0476,CUST-076,Integrated Logistics Partners,Retail,Kolkata,05-11-2024,05-12-2024,7331,7331,30-11-2024,Paid,Consulting,Sneha Patel,No,,0,25,0,Current,None
+INV-0477,CUST-077,Continental Trading Syndicate,Retail,Kolkata,20-11-2024,20-12-2024,2192,2192,31-01-2025,Late_Paid,Service Fee,Vikram Joshi,No,,0,72,0,Current,None
+INV-0478,CUST-078,Superior Packing Systems,Retail,Kolkata,22-01-2025,21-02-2025,5710,5710,09-03-2025,Late_Paid,Service Fee,Anita Reddy,No,,0,46,0,Current,None
+INV-0479,CUST-079,Essential Agro Exports,Retail,Kolkata,04-02-2025,06-03-2025,7054,7054,28-02-2025,Paid,Service Fee,Karan Mehta,No,,0,24,0,Current,None
+INV-0480,CUST-080,Modern Infrastructure Consultants,Retail,Kolkata,14-08-2024,13-09-2024,7928,7928,23-08-2024,Paid,Consulting,Divya Singh,No,,0,9,0,Current,None
+INV-0481,CUST-001,Malhotra Construction Group,Enterprise,Mumbai,20-03-2024,19-04-2024,1006920,1006920,14-04-2024,Paid,Service Fee,Amit Verma,No,,0,25,0,Current,None
+INV-0482,CUST-002,Khanna Electricals & Co.,Enterprise,Mumbai,09-12-2024,08-01-2025,524392,524392,21-12-2024,Paid,Service Fee,Priya Sharma,No,,0,12,0,Current,None
+INV-0483,CUST-003,Singh Freight Carriers,Enterprise,Mumbai,24-12-2024,23-01-2025,555260,555260,30-12-2024,Paid,Product Sale,Rahul Nair,No,,0,6,0,Current,None
+INV-0484,CUST-004,Bhatia Polymers Pvt Ltd,Enterprise,Mumbai,24-03-2025,23-04-2025,1458808,1458808,29-05-2025,Late_Paid,Consulting,Sneha Patel,No,,0,66,0,Current,None
+INV-0485,CUST-005,Verma Associates,Enterprise,Mumbai,25-12-2024,24-01-2025,276284,276284,06-03-2025,Late_Paid,Consulting,Vikram Joshi,No,,0,71,0,Current,None
+INV-0486,CUST-006,Chopra Cold Storage,Enterprise,Mumbai,15-06-2024,15-07-2024,819734,819734,20-06-2024,Paid,Maintenance Contract,Anita Reddy,No,,0,5,0,Current,None
+INV-0487,CUST-007,Sethi Textiles & Fabrics,Enterprise,Mumbai,24-09-2024,24-10-2024,650395,650395,08-11-2024,Late_Paid,Maintenance Contract,Karan Mehta,No,,0,45,0,Current,None
+INV-0488,CUST-008,Aggarwal Spices Trading,Enterprise,Mumbai,31-10-2024,30-11-2024,617186,0,,Overdue,Maintenance Contract,Divya Singh,No,,617186,,563,90+ Days,Critical - Escalate Now
+INV-0489,CUST-009,Tandon Auto Parts,Enterprise,Mumbai,31-03-2025,30-04-2025,232861,0,,Disputed,Service Fee,Amit Verma,Yes,Contract Disagreement,232861,,0,0-30 Days,High - Legal Review
+INV-0490,CUST-010,Gill Agricultural Implements,Enterprise,Mumbai,09-06-2024,09-07-2024,912025,528974.5,02-07-2024,Partial,Service Fee,Priya Sharma,No,,383050.5,23,0,0-30 Days,Low - Monitor
+INV-0491,CUST-011,Dhawan Pharmaceuticals,Mid-Market,Pune,28-09-2024,28-10-2024,150008,150008,06-10-2024,Paid,Service Fee,Rahul Nair,No,,0,8,0,Current,None
+INV-0492,CUST-012,Rawat Real Estate,Mid-Market,Pune,06-02-2025,08-03-2025,178424,132033.76,16-02-2025,Partial,Service Fee,Sneha Patel,No,,46390.24,10,0,0-30 Days,Low - Monitor
+INV-0493,CUST-013,Jain Packaging Solutions,Mid-Market,Pune,30-03-2024,29-04-2024,134806,134806,07-04-2024,Paid,Service Fee,Vikram Joshi,No,,0,8,0,Current,None
+INV-0494,CUST-014,Kapur Infrastructure,Mid-Market,Pune,30-07-2024,29-08-2024,158221,158221,19-08-2024,Paid,Product Sale,Anita Reddy,No,,0,20,0,Current,None
+INV-0495,CUST-015,Sahni Hospitality Services,Mid-Market,Pune,11-11-2024,11-12-2024,57188,57188,07-12-2024,Paid,Consulting,Karan Mehta,No,,0,26,0,Current,None
+INV-0496,CUST-016,Bakshi Steel Syndicate,Mid-Market,Pune,03-04-2024,03-05-2024,127958,127958,19-04-2024,Paid,Service Fee,Divya Singh,No,,0,16,0,Current,None
+INV-0497,CUST-017,Sachdeva Marketing Agency,Mid-Market,Pune,13-01-2025,12-02-2025,130674,99312.24,31-01-2025,Partial,Maintenance Contract,Amit Verma,No,,31361.76,18,0,0-30 Days,Low - Monitor
+INV-0498,CUST-018,Chawla Hardware Stores,Mid-Market,Pune,02-10-2024,01-11-2024,158482,158482,09-10-2024,Paid,Product Sale,Priya Sharma,No,,0,7,0,Current,None
+INV-0499,CUST-019,Oberoi Paper Products,Mid-Market,Pune,27-02-2025,29-03-2025,111480,111480,05-03-2025,Paid,Annual License,Rahul Nair,No,,0,6,0,Current,None
+INV-0500,CUST-020,Luthra Chemical Works,Mid-Market,Pune,04-03-2025,03-04-2025,137488,137488,23-04-2025,Late_Paid,Annual License,Sneha Patel,No,,0,50,0,Current,None
