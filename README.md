@@ -19,7 +19,7 @@ That single insight — not the dashboard, not the SQL — is the actual deliver
 
 ## Why This Project Is Different
 
-I spent 2–4 years in Finance, Accounts Receivable, and Customer Service before moving into analytics. Most AR portfolio projects use a Kaggle dataset built by someone who's never chased a late payment. This one is built on the patterns I've actually seen — realistic aging behaviour, partial payments, dispute reasons, and the specific blind spot most AR dashboards have (see *DSO ≠ Outstanding* below).
+I spent 2–4 years in Finance, Accounts Receivable, and Customer Service before moving into analytics. Most AR portfolio projects use a Kaggle dataset built by someone who's never chased a late payment. This one is built on the patterns I've actually seen — realistic aging behaviour, partial payments, dispute reasons, and a regional finding (below) that most AR dashboards miss entirely.
 
 ---
 
@@ -48,14 +48,14 @@ I spent 2–4 years in Finance, Accounts Receivable, and Customer Service before
 **Sales & Segment Performance** — who owns the risk: reps, dispute root causes, invoice-level scatter
 ![Sales Segment](screenshots/page3_sales_segment.png)
 
-**Regional Intelligence** — geography-based credit risk, including a DSO paradox resolved in the full report
+**Regional Intelligence** — geography-based credit risk, including a DSO paradox explained in the full report
 ![Regional Intelligence](screenshots/page4_regional_intelligence.png)
 
 ---
 
-## A Finding I Had to Dig Into: DSO ≠ Outstanding
+## A Finding Worth Digging Into: DSO ≠ Outstanding
 
-Mumbai showed the **best** average payment speed (26.4 days) and simultaneously the **worst** total outstanding value (₹16.3M) in the same dataset. That looks like a contradiction until you check the DAX:
+Mumbai shows the **best** average payment speed (26.4 days) and simultaneously the **worst** total outstanding value (₹16.3M) in the same dataset. The explanation sits in the DAX:
 
 ```dax
 Avg DSO =
@@ -65,7 +65,7 @@ AVERAGEX(
 )
 ```
 
-DSO only ever looks at invoices that *did* get paid — it structurally excludes every stuck invoice. So a region can have great DSO and terrible Outstanding at the same time, because the two metrics describe two different populations of invoices. Mumbai's problem turned out to be 9–10 large Enterprise accounts, not a citywide payment culture issue — full breakdown in the [dashboard report](reports/AR_Dashboard_Documentation.pdf).
+DSO only ever looks at invoices that *did* get paid — it structurally excludes every stuck invoice. So a region can have great DSO and terrible Outstanding at the same time, because the two metrics describe two different populations of invoices. Mumbai's problem turns out to be 9–10 large Enterprise accounts, not a citywide payment culture issue — full breakdown in the [dashboard report](reports/AR_Dashboard_Documentation.pdf).
 
 ---
 
@@ -86,10 +86,24 @@ DSO only ever looks at invoices that *did* get paid — it structurally excludes
 
 ---
 
+## Key Metrics at a Glance
+
+| Metric | Value | Benchmark |
+|---|---|---|
+| Total Billed (18 months) | ₹8.17 Cr | — |
+| Total Outstanding | ₹2.24 Cr | <10% of billed |
+| Collection Efficiency | 72.59% | 90%+ |
+| Average DSO | 30.8 days | <30 days |
+| 90+ Day Critical Bucket | ₹1.96 Cr (87.6% of outstanding) | ₹0 |
+| Best / Worst Month | May 2025 (97.3%) / Jan 2024 (46.2%) | 90%+ consistently |
+
+---
+
 ## Full Documentation
 
 - 📘 **[SQL Analysis Report](reports/AR_Audit_Project_Documentation.pdf)** — all 10 queries, findings, insights, CFO action memo
-- 📗 **[Dashboard Documentation](reports/AR_Dashboard_Documentation.pdf)** — DAX logic, quantified recovery scenarios, data limitations disclosed honestly, and a 6-question interview prep section
+- 📗 **[Dashboard Documentation](reports/AR_Dashboard_Documentation.pdf)** — DAX logic, quantified recovery scenarios, regional risk analysis, and interview prep Q&A
+- 📙 **[FAQ & Interview Q&A](reports/AR_Leakage_Audit_FAQ_Interview_QA.pdf)** — 45 anticipated questions across technical, business, and behavioral interview rounds
 
 ---
 
@@ -98,8 +112,8 @@ DSO only ever looks at invoices that *did* get paid — it structurally excludes
 I'm **Sumesh Achary** — a Finance, AR/AP, and Customer Service professional moving into Data Analytics, with certifications in SQL, Power BI, Power Query, and Business Analytics with Excel. This project is the first of a 5-project portfolio, each one deliberately built around domain experience rather than generic datasets.
 
 📍 Mumbai, India · Open to Data Analyst roles — Mumbai · Remote India · International Remote
-🔗 www.linkedin.com/in/sumesh-acharyofficial · 📧 achary.sumesh@gmail.com
+🔗 [LinkedIn](https://www.linkedin.com/in/sumesh-acharyofficial) · 📧 [Email](mailto:achary.sumesh@gmail.com)
 
 ---
 
-⭐ **Project 1 of 5** in this portfolio. Next up: B2B sales pipeline and revenue leakage analysis.
+⭐ **Project 1 of 5** in this portfolio. Next up: Project 2.
